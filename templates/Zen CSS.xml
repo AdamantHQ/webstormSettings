@@ -1,8 +1,4 @@
 <templateSet group="Zen CSS">
-  <template name="cnt" value="content:&quot;&quot;;$END$" description="content:...;" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
-  <template name="c" value="color:$END$;" description="color:...;" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
+  <template name="cnt" value="content:&quot;&quot;;$END$" description="content:...;" toReformat="true" toShortenFQNames="true" />
+  <template name="c" value="color:$END$;" description="color:...;" toReformat="true" toShortenFQNames="true" />
 </templateSet>
