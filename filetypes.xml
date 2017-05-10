@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="mockUsersApi.js" type="ECMAScript 6" />
       <mapping pattern="categories" type="JavaScript" />
       <mapping pattern=".babelIrc" type="JavaScript" />
       <mapping pattern="mongod" type="Native" />
@@ -9,8 +10,8 @@
       <mapping pattern="mongo" type="PLAIN_TEXT" />
       <mapping pattern=".foreverignore" type="PLAIN_TEXT" />
       <mapping pattern="1" type="PLAIN_TEXT" />
-      <mapping pattern=".editorconfig" type="PLAIN_TEXT" />
       <mapping pattern="userStorage" type="PLAIN_TEXT" />
+      <mapping pattern=".editorconfig" type="PLAIN_TEXT" />
       <mapping ext="1" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
