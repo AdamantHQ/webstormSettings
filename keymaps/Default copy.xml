@@ -33,6 +33,9 @@
     <keyboard-shortcut first-keystroke="alt f7" />
     <mouse-shortcut keystroke="control alt button142" />
   </action>
+  <action id="Git.Branches">
+    <keyboard-shortcut first-keystroke="ctrl alt g" />
+  </action>
   <action id="NewFile">
     <mouse-shortcut keystroke="control button2" />
   </action>
