@@ -16,6 +16,12 @@
   <action id="EditorBackSpace">
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
+  <action id="EditorCloneCaretAbove">
+    <mouse-shortcut keystroke="alt button143" />
+  </action>
+  <action id="EditorCloneCaretBelow">
+    <mouse-shortcut keystroke="alt button142" />
+  </action>
   <action id="EditorHungryBackSpace">
     <keyboard-shortcut first-keystroke="shift back_space" />
   </action>
