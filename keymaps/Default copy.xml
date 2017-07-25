@@ -42,6 +42,9 @@
   <action id="Git.Branches">
     <keyboard-shortcut first-keystroke="ctrl alt g" />
   </action>
+  <action id="LocalHistory.ShowHistory">
+    <keyboard-shortcut first-keystroke="alt d" />
+  </action>
   <action id="NewFile">
     <mouse-shortcut keystroke="control button2" />
   </action>
