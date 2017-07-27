@@ -48,6 +48,9 @@
   <action id="NewFile">
     <mouse-shortcut keystroke="control button2" />
   </action>
+  <action id="ReopenClosedTab">
+    <keyboard-shortcut first-keystroke="alt z" />
+  </action>
   <action id="SurroundWith">
     <keyboard-shortcut first-keystroke="ctrl alt t" />
     <keyboard-shortcut first-keystroke="ctrl alt w" />
