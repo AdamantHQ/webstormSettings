@@ -30,7 +30,7 @@
         <entry key="border-horizontal-spacing" value="1" />
         <entry key="border-image" value="11" />
         <entry key="border-left-colors" value="2" />
-        <entry key="border-radius" value="3" />
+        <entry key="border-radius" value="0" />
         <entry key="border-right-colors" value="2" />
         <entry key="border-top-colors" value="2" />
         <entry key="border-vertical-spacing" value="1" />
