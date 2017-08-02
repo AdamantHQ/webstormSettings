@@ -1,0 +1,19 @@
+<templateSet group="SCSS">
+  <template name="css" value=".$COMPONENT$ {&#10;  $END$&#10;}" description="Parent scss selector" toReformat="true" toShortenFQNames="true">
+    <variable name="COMPONENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="cssm" value=".$COMPONENT$ {&#10;  $END$&#10;  @media #{$tablet} {&#10;  &#10;  }&#10;  &#10;  @media #{$tablet-landscape} {&#10;  &#10;  }&#10;  &#10;  @media #{$desktop} {&#10;  &#10;  }&#10;}" description="Parent scss selector with media-queries" toReformat="true" toShortenFQNames="true">
+    <variable name="COMPONENT" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="im" value="@import &quot;$END$&quot;;" description="Import scss file" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+</templateSet>
