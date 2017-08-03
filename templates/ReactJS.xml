@@ -1,5 +1,5 @@
 <templateSet group="ReactJS">
-  <template name="rcls" value="import React, { Component } from 'react';&#10;import PropTypes from 'prop-types';&#10;&#10;class $COMPONENT$ extends Component {&#10;  render() {&#10;    return (&#10;      &lt;div&gt;$END$&lt;/div&gt;&#10;    );&#10;  }&#10;}&#10;&#10;$COMPONENT$.propTypes = {};&#10;$COMPONENT$.defaultProps = {};&#10;&#10;export default $COMPONENT$;&#10;" description="React: Create a React ES2015 class" toReformat="true" toShortenFQNames="true">
+  <template name="rcls" value="import React, { Component } from &quot;react&quot;;&#10;import PropTypes from &quot;prop-types&quot;;&#10;&#10;class $COMPONENT$ extends Component {&#10;  static propTypes = {&#10;    //myprop: PropTypes.string.isRequired,&#10;  };&#10;  &#10;  render() {&#10;    return (&#10;      &lt;div&gt;$END$&lt;/div&gt;&#10;    );&#10;  }&#10;}&#10;&#10;export default $COMPONENT$;&#10;" description="React: Create a React ES2015 class" toReformat="true" toShortenFQNames="true">
     <variable name="COMPONENT" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
@@ -227,7 +227,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="state" value="this.state.$END$" description="React: this.state.$END$" toReformat="true" toShortenFQNames="true">
+  <template name="state" value="state = {&#10;  $END$&#10;};" description="React: state" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -669,14 +669,22 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="im" value="import $END$ from &quot;$START$&quot;;" description="React: import" toReformat="false" toShortenFQNames="true">
-    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="im" value="import $FILE$ from &quot;$PATH$&quot;;" description="React: import" toReformat="false" toShortenFQNames="true">
+    <variable name="PATH" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FILE" expression="complete()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
   <template name="imd" value="import { $END$ } from &quot;$START$&quot;;" description="React: destructured import" toReformat="false" toShortenFQNames="true">
     <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="imc" value="import $EXPORT$ from &quot;./$CHILD$/$CHILD$&quot;;" description="React: import children" toReformat="false" toShortenFQNames="true">
+    <variable name="CHILD" expression="jsClassName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="EXPORT" expression="" defaultValue="CHILD" alwaysStopAt="false" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
