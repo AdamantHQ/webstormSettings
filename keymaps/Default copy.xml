@@ -54,6 +54,10 @@
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="alt z" />
   </action>
+  <action id="SelectNextOccurrence">
+    <keyboard-shortcut first-keystroke="alt j" />
+    <mouse-shortcut keystroke="shift button142" />
+  </action>
   <action id="SurroundWith">
     <keyboard-shortcut first-keystroke="ctrl alt t" />
     <keyboard-shortcut first-keystroke="ctrl alt w" />
@@ -84,5 +88,9 @@
   </action>
   <action id="Tool_External Tools_prettier">
     <keyboard-shortcut first-keystroke="alt add" />
+  </action>
+  <action id="UnselectPreviousOccurrence">
+    <keyboard-shortcut first-keystroke="shift alt j" />
+    <mouse-shortcut keystroke="shift button143" />
   </action>
 </keymap>
