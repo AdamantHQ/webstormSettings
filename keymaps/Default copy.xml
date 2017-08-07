@@ -48,8 +48,14 @@
   <action id="LocalHistory.ShowHistory">
     <keyboard-shortcut first-keystroke="alt d" />
   </action>
+  <action id="MoveEditorToOppositeTabGroup">
+    <keyboard-shortcut first-keystroke="ctrl numpad0" />
+  </action>
   <action id="NewFile">
     <mouse-shortcut keystroke="control button2" />
+  </action>
+  <action id="OpenEditorInOppositeTabGroup">
+    <keyboard-shortcut first-keystroke="ctrl numpad1" />
   </action>
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="alt z" />
