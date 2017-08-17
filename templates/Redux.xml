@@ -1,5 +1,5 @@
 <templateSet group="Redux">
-  <template name="ra" value="export const $NAME$ = () =&gt; ({&#10;  type: types.$UPNAME$,&#10;});" toReformat="false" toShortenFQNames="true">
+  <template name="ra" value="export const $NAME$ = () =&gt; ({&#10;  type: types.$UPNAME$,&#10;});" description="" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="UPNAME" expression="capitalizeAndUnderscore(NAME)" defaultValue="" alwaysStopAt="true" />
     <context>
