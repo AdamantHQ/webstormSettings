@@ -731,4 +731,11 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="spbl" value="span.$CLASS$__" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS" expression="lowercaseAndDash(fileNameWithoutExtension())" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JSX_HTML" value="true" />
+    </context>
+  </template>
 </templateSet>
