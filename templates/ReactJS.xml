@@ -732,7 +732,7 @@
     </context>
   </template>
   <template name="sbl" value="span.$CLASS$__" description="New span with className from file name" toReformat="false" toShortenFQNames="true">
-    <variable name="CLASS" expression="lowercaseAndDash(fileNameWithoutExtension())" defaultValue="" alwaysStopAt="true" />
+    <variable name="CLASS" expression="lowercaseAndDash(fileNameWithoutExtension())" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="HTML" value="true" />
       <option name="JSX_HTML" value="true" />
