@@ -1,6 +1,7 @@
 <application>
   <component name="AbbreviationManager">
     <abbreviations>
+      <action id="NewFile" />
       <action id="ShowUmlDiagram" />
     </abbreviations>
   </component>
