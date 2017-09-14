@@ -31,11 +31,11 @@
   </action>
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="ctrl w" />
-    <mouse-shortcut keystroke="shift button143" />
+    <mouse-shortcut keystroke="shift control button143" />
   </action>
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="shift ctrl w" />
-    <mouse-shortcut keystroke="shift button142" />
+    <mouse-shortcut keystroke="shift control button142" />
   </action>
   <action id="ExpandLiveTemplateCustom">
     <keyboard-shortcut first-keystroke="ctrl alt k" />
