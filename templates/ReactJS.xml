@@ -731,4 +731,22 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="cncn" value="const $START$ = classNames(&quot;$CLASS$&quot;, {&#10;  &quot;$CLASS$--$PREFIX$&quot;: $CONDITION$,&#10;});" description="classNames library" toReformat="false" toShortenFQNames="true">
+    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CLASS" expression="lowercaseAndDash(fileNameWithoutExtension())" defaultValue="" alwaysStopAt="true" />
+    <variable name="PREFIX" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cncnp" value="const $START$ = classNames(&quot;$CLASS$&quot;, parentClass, {&#10;  &quot;$CLASS$--$PREFIX$&quot;: $CONDITION$,&#10;});" description="classNames library" toReformat="false" toShortenFQNames="true">
+    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CLASS" expression="lowercaseAndDash(fileNameWithoutExtension())" defaultValue="" alwaysStopAt="true" />
+    <variable name="PREFIX" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
