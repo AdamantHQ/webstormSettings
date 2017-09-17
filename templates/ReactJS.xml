@@ -749,4 +749,13 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="cncnb" value="const $ELEMENT$Class = classNames(&quot;$CLASS$__$ELEMENT$&quot;, {&#10;  &quot;$CLASS$__$ELEMENT$--$PREFIX$&quot;: $CONDITION$,&#10;});" description="classNames library" toReformat="false" toShortenFQNames="true">
+    <variable name="ELEMENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CLASS" expression="lowercaseAndDash(fileNameWithoutExtension())" defaultValue="" alwaysStopAt="false" />
+    <variable name="PREFIX" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
