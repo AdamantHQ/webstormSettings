@@ -6,8 +6,8 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="rcase" value="case types.$NAME$:&#10;  return $END$;" description="" toReformat="false" toShortenFQNames="true">
-    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="rca" value="case types.$NAME$:&#10;  return [$END$];" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="clipboard()" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -53,7 +53,7 @@
     </context>
   </template>
   <template name="rco" value="case types.$NAME$:&#10;  return {&#10;    ...state, $END$&#10;  };" description="Redux case with state as object" toReformat="false" toShortenFQNames="true">
-    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="clipboard()" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
