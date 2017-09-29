@@ -36,7 +36,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="md" value="const mapDispatchToProps = (dispatch) =&gt; ({&#10;  $FOO$: () =&gt; dispatch($FOO$($END$)),&#10;});" description="mapDispatchToProps" toReformat="false" toShortenFQNames="true">
+  <template name="mde" value="const mapDispatchToProps = (dispatch) =&gt; {&#10;  return {&#10;    $FOO$: () =&gt; dispatch($FOO$($END$)),&#10;  };&#10;}" description="mapDispatchToProps" toReformat="false" toShortenFQNames="true">
     <variable name="FOO" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
