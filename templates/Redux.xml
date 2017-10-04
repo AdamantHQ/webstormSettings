@@ -28,7 +28,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="rap" value="export const $NAME$ = $DATA$ =&gt; ({&#10;  type: types.$UPNAME$,&#10;  payload: {$DATA$}&#10;});" description="" toReformat="false" toShortenFQNames="true">
+  <template name="rap" value="export const $NAME$ = $DATA$ =&gt; ({&#10;  type: types.$UPNAME$,&#10;  payload: { $DATA$ }&#10;});" description="" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="DATA" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="UPNAME" expression="capitalizeAndUnderscore(NAME)" defaultValue="" alwaysStopAt="true" />
