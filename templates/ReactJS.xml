@@ -728,7 +728,8 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="clr" value="console.log($END$);" description="Console.log(render)" toReformat="false" toShortenFQNames="true">
+  <template name="clr" value="console.log(&quot;$COMPONENT$ is rendering&quot;);" description="Console.log for displaying rendering information" toReformat="false" toShortenFQNames="true">
+    <variable name="COMPONENT" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
