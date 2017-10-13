@@ -104,6 +104,9 @@
   <action id="Tool_External Tools_CSScomb">
     <keyboard-shortcut first-keystroke="ctrl alt 1" />
   </action>
+  <action id="Tool_External Tools_Prettier Directories">
+    <keyboard-shortcut first-keystroke="alt divide" />
+  </action>
   <action id="Tool_External Tools_Prettify">
     <keyboard-shortcut first-keystroke="alt add" />
   </action>
