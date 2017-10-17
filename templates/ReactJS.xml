@@ -750,4 +750,12 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="rclc" value="import React, { Component } from &quot;react&quot;;&#10;import {} from &quot;prop-types&quot;;&#10;import &quot;./$CLASSNAME$.scss&quot;;&#10;import { connect } from &quot;react-redux&quot;;&#10;&#10;const mapStateToProps = () =&gt; {&#10;  $PROP$&#10;}&#10;&#10;@connect(mapStateToProps)&#10;export default class $COMPONENT$ extends Component {&#10;  static propTypes = {&#10;    //myprop: PropTypes.string.isRequired,&#10;  };&#10;  &#10;  render() {&#10;    return (&#10;      &lt;div className=&quot;$CLASSNAME$&quot;&gt;$END$&lt;/div&gt;&#10;    );&#10;  }&#10;}&#10;" description="React: Create a React ES2015 class" toReformat="true" toShortenFQNames="true">
+    <variable name="COMPONENT" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <variable name="PROP" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CLASSNAME" expression="lowercaseAndDash(COMPONENT)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
