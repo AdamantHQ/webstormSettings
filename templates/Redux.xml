@@ -42,7 +42,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="ms" value="const mapStateToProps = state =&gt; ({&#10;  $PROP$: get$PROP$(state),&#10;});" description="mapStateToProps" toReformat="false" toShortenFQNames="true">
+  <template name="ms" value="const mapStateToProps = state =&gt; ({&#10;  $PROP$: $PROP$Selector(state),&#10;});" description="mapStateToProps" toReformat="false" toShortenFQNames="true">
     <variable name="PROP" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
