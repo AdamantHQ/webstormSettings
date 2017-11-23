@@ -523,9 +523,9 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="im" value="import $FILE$ from &quot;$PATH$&quot;;" description="React: import" toReformat="false" toShortenFQNames="true">
+  <template name="im" value="import $FILE$ from '$PATH$'" description="React: import" toReformat="false" toShortenFQNames="true">
     <variable name="PATH" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="FILE" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="FILE" expression="$PATH$" defaultValue="PATH" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
