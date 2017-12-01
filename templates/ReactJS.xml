@@ -446,7 +446,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="cl" value="console.log($END$);" description="Console.log()" toReformat="false" toShortenFQNames="true">
+  <template name="cl" value="console.log($END$)" description="Console.log()" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -479,6 +479,11 @@
   </template>
   <template name="help" value="import helper from 'react-bem-helper'&#10;const classes = helper('$COMP$')" description="React bem-helper" toReformat="false" toShortenFQNames="true">
     <variable name="COMP" expression="lowercaseAndDash(fileNameWithoutExtension())" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cls" value="console.log('$END$')" description="Console.log()" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
