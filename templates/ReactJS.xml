@@ -11,17 +11,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="cdm5" value="componentDidMount: function() {&#10;  $END$&#10;},&#10;" description="React: componentDidMount" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
   <template name="cdu" value="componentDidUpdate(prevProps, prevState, prevContext) {&#10;  $END$&#10;}&#10;" description="React: componentDidUpdate" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="cdu5" value="componentDidUpdate: function(prevProps, prevState, prevContext) {&#10;  $END$&#10;},&#10;" description="React: componentDidUpdate" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -46,13 +36,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="dnp" value="$START$.displayName = &quot;$END$&quot;;" description="React: displayName as a property" toReformat="true" toShortenFQNames="true">
-    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="fdn" value="findDOMNode($END$);" description="React: findDOMNode" toReformat="true" toShortenFQNames="true">
+  <template name="fdn" value="findDOMNode($END$)" description="React: findDOMNode" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -62,29 +46,18 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="gdp" value="getDefaultProps() {&#10;  return {&#10;    $END$&#10;  };&#10;}&#10;" description="React: getDefaultProps" toReformat="true" toShortenFQNames="true">
+  <template name="pr" value="this.props" description="React: this.props" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="gis" value="getInitialState() {&#10;  return {&#10;    $START$: $END$&#10;  };&#10;}&#10;" description="React: getInitialState" toReformat="true" toShortenFQNames="true">
+  <template name="pts" value="static propTypes: {&#10;  $START$: T.$END$,&#10;};&#10;" description="React: propTypes" toReformat="true" toShortenFQNames="true">
     <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="props" value="this.props" description="React: this.props" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="pts" value="propTypes: {&#10;  $START$: PropTypes.$END$,&#10;},&#10;" description="React: propTypes" toReformat="true" toShortenFQNames="true">
-    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="pt" value="$START$: PropTypes.$TYPE$.isRequired,$END$" description="React: PropTypes." toReformat="true" toShortenFQNames="true">
+  <template name="pt" value="$START$: T.$TYPE$," description="React: PropTypes." toReformat="true" toShortenFQNames="true">
     <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -117,13 +90,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="cct" value="childContextTypes: {&#10;  $START$: PropTypes.$END$,&#10;},&#10;" description="React: childContextTypes" toReformat="true" toShortenFQNames="true">
-    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="gcc" value="getChildContext() {&#10;  return {&#10;    $START$: $END$&#10;  };&#10;}&#10;" description="React: getChildContext" toReformat="true" toShortenFQNames="true">
+  <template name="cct" value="childContextTypes: {&#10;  $START$: PropTypes.$END$,&#10;},&#10;" description="React: childContextTypes" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
@@ -193,52 +160,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="oncp" value="onCopy={$END$}" description="React: onCopy" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="onct" value="onCut={$END$}" description="React: onCut" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="onpt" value="onPaste={$END$}" description="React: onPaste" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="oncpse" value="onCompositionEnd={$END$}" description="React: onCompositionEnd" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="oncpss" value="onCompositionStart={$END$}" description="React: onCompositionStart" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="oncpsu" value="onCompositionUpdate={$END$}" description="React: onCompositionUpdate" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="onkd" value="onKeyDown={$END$}" description="React: onKeyDown" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
   <template name="onps" value="onKeyPress={$END$}" description="React: onKeyPress" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="onku" value="onKeyUp={$END$}" description="React: onKeyUp" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="onfs" value="onFocus={$END$}" description="React: onFocus" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -253,67 +175,12 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="onip" value="onInput={$END$}" description="React: onInput" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
   <template name="onsb" value="onSubmit={$END$}" description="React: onSubmit" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
   <template name="onc" value="onClick={$END$}" description="React: onClick" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="oncm" value="onContextMenu={$END$}" description="React: onContextMenu" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="ondc" value="onDurationChange={$END$}" description="React: onDurationChange" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="ondg" value="onDrag={$END$}" description="React: onDrag" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="ondge" value="onDragEnd={$END$}" description="React: onDragEnd" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="ondgetr" value="onDragEnter={$END$}" description="React: onDragEnter" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="ondget" value="onDragExit={$END$}" description="React: onDragExit" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="ondgl" value="onDragLeave={$END$}" description="React: onDragLeave" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="ondgo" value="onDragOver={$END$}" description="React: onDragOver" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="ondgst" value="onDragStart={$END$}" description="React: onDragStart" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="ondp" value="onDrop={$END$}" description="React: onDrop" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -358,152 +225,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="ontc" value="onTouchCancel={$END$}" description="React: onTouchCancel" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="onte" value="onTouchEnd={$END$}" description="React: onTouchEnd" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="ontm" value="onTouchMove={$END$}" description="React: onTouchMove" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="onts" value="onTouchStart={$END$}" description="React: onTouchStart" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
   <template name="onwl" value="onWheel={$END$}" description="React: onWheel" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="oncpl" value="onCanPlay={$END$}" description="React: onCanPlay" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="oncpt" value="onCanPlayThrough={$END$}" description="React: onCanPlayThrough" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="onempt" value="onEmptied={$END$}" description="React: onEmptied" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="onekpt" value="onEncrypted={$END$}" description="React: onEncrypted" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="onend" value="onEnded={$END$}" description="React: onEnded" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="onldd" value="onLoadedData={$END$}" description="React: onLoadedData" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="onldmd" value="onLoadedMetadata={$END$}" description="React: onLoadedMetadata" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="onls" value="onLoadStart={$END$}" description="React: onLoadStart" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="onpaus" value="onPause={$END$}" description="React: onPause" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="opl" value="onPlay={$END$}" description="React: onPlay" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="onplg" value="onPlaying={$END$}" description="React: onPlaying" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="onpgs" value="onProgress={$END$}" description="React: onProgress" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="onrc" value="onRateChange={$END$}" description="React: onRateChange" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="onsked" value="onSeeked={$END$}" description="React: onSeeked" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="onskin" value="onSeeking={$END$}" description="React: onSeeking" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="onstd" value="onStalled={$END$}" description="React: onStalled" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="onsupd" value="onSuspend={$END$}" description="React: onSuspend" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="ontu" value="onTimeUpdate={$END$}" description="React: onTimeUpdate" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="onvc" value="onVolumeChange={$END$}" description="React: onVolumeChange" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="onwt" value="onWaiting={$END$}" description="React: onWaiting" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="onld" value="onLoad={$END$}" description="React: onLoad" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="onerr" value="onError={$END$}" description="React: onError" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="onas" value="onAnimationStart={$END$}" description="React: onAnimationStart" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="onai" value="onAnimationIteration={$END$}" description="React: onAnimationIteration" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="ontse" value="onTransitionEnd={$END$}" description="React: onTransitionEnd" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -530,13 +252,13 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="imd" value="import { $END$ } from &quot;$START$&quot;;" description="React: destructured import" toReformat="false" toShortenFQNames="true">
+  <template name="imd" value="import { $END$ } from '$START$'" description="React: destructured import" toReformat="false" toShortenFQNames="true">
     <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="imc" value="import $EXPORT$ from &quot;./$CHILD$/$CHILD$&quot;;" description="React: import children" toReformat="false" toShortenFQNames="true">
+  <template name="imc" value="import $EXPORT$ from './$CHILD$'" description="React: import children" toReformat="false" toShortenFQNames="true">
     <variable name="CHILD" expression="jsClassName()" defaultValue="" alwaysStopAt="true" />
     <variable name="EXPORT" expression="" defaultValue="CHILD" alwaysStopAt="false" />
     <context>
@@ -562,7 +284,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="ims" value="import &quot;./$NAME$.scss&quot;;" description="React: import scss file" toReformat="false" toShortenFQNames="true">
+  <template name="ims" value="import './$NAME$.scss'" description="React: import scss file" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="lowercaseAndDash(fileNameWithoutExtension())" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
@@ -587,13 +309,6 @@
     <context>
       <option name="HTML" value="true" />
       <option name="JSX_HTML" value="true" />
-    </context>
-  </template>
-  <template name="cfn" value="&quot;$CLASS$__$END$&quot;" description="className from file name" toReformat="false" toShortenFQNames="true">
-    <variable name="CLASS" expression="lowercaseAndDash(fileNameWithoutExtension())" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="HTML" value="true" />
-      <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
   <template name="dbl" value="div.$CLASS$__" description="New span with className from file name" toReformat="false" toShortenFQNames="true">
@@ -636,25 +351,18 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="cspc" value="`${parentClass} $CLASS$`" description="ClassName string" toReformat="false" toShortenFQNames="true">
-    <variable name="CLASS" expression="lowercaseAndDash(fileNameWithoutExtension())" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="HTML" value="true" />
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="cnd" value="const { $END$ } = $START$;" description="Destructured assignment" toReformat="false" toShortenFQNames="true">
+  <template name="cnd" value="const { $END$ } = $START$" description="Destructured assignment" toReformat="false" toShortenFQNames="true">
     <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="cnds" value="const { $END$ } = this.state;" description="Destructured assignment from this.state" toReformat="false" toShortenFQNames="true">
+  <template name="cnds" value="const { $END$ } = this.state" description="Destructured assignment from this.state" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="cndp" value="const { $END$ } = this.props;" description="Destructured assignment from this.props" toReformat="false" toShortenFQNames="true">
+  <template name="cndp" value="const { $END$ } = this.props" description="Destructured assignment from this.props" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -666,7 +374,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="cncn" value="const $START$ = classNames(&#10;  &quot;$CLASS$&quot;, &#10;  $CONDITION$ &amp;&amp; &quot;$CLASS$--$CONDITION$&quot;&#10;);" description="classNames library" toReformat="false" toShortenFQNames="true">
+  <template name="cncn" value="const $START$ = classNames(&#10;  &quot;$CLASS$&quot;, &#10;  $CONDITION$ &amp;&amp; &quot;$CLASS$--$CONDITION$&quot;&#10;);" description="classNames library" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="CLASS" expression="lowercaseAndDash(fileNameWithoutExtension())" defaultValue="" alwaysStopAt="true" />
     <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
@@ -674,7 +382,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="cncnp" value="const $START$ = classNames(&#10;  &quot;$CLASS$&quot;, &#10;  parentClass,&#10;  $CONDITION$ &amp;&amp; &quot;$CLASS$--$CONDITION$&quot;&#10;);" description="classNames library" toReformat="false" toShortenFQNames="true">
+  <template name="cncnp" value="const $START$ = classNames(&#10;  &quot;$CLASS$&quot;, &#10;  parentClass,&#10;  $CONDITION$ &amp;&amp; &quot;$CLASS$--$CONDITION$&quot;&#10;);" description="classNames library" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="CLASS" expression="lowercaseAndDash(fileNameWithoutExtension())" defaultValue="" alwaysStopAt="true" />
     <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
@@ -682,7 +390,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="cncnb" value="const $ELEMENT$Class = classNames(&quot;$CLASS$__$ELEMENT$&quot;, {&#10;  &quot;$CLASS$__$ELEMENT$--$PREFIX$&quot;: $CONDITION$,&#10;});" description="classNames library" toReformat="false" toShortenFQNames="true">
+  <template name="cncnb" value="const $ELEMENT$Class = classNames(&quot;$CLASS$__$ELEMENT$&quot;, {&#10;  &quot;$CLASS$__$ELEMENT$--$PREFIX$&quot;: $CONDITION$,&#10;});" description="classNames library" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="ELEMENT" expression="lowercaseAndDash()" defaultValue="" alwaysStopAt="true" />
     <variable name="CLASS" expression="lowercaseAndDash(fileNameWithoutExtension())" defaultValue="" alwaysStopAt="false" />
     <variable name="PREFIX" expression="" defaultValue="" alwaysStopAt="true" />
@@ -700,34 +408,14 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="bl" value="$BLOCK$" description="ClassName string" toReformat="false" toShortenFQNames="true">
+  <template name="com" value="$BLOCK$" description="Component name" toReformat="false" toShortenFQNames="true">
     <variable name="BLOCK" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML" value="true" />
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="eaf" value="export const $NAME$ = ($ARGS$) =&gt; $RETURN$;" description="Export array function" toReformat="false" toShortenFQNames="true">
-    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="RETURN" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="lr" value="console.log(&quot;$COMPONENT$ is rendering&quot;);" description="Console.log for displaying rendering information" toReformat="false" toShortenFQNames="true">
-    <variable name="COMPONENT" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="cls" value="console.log(&quot;---$START$---&quot;);" description="Console.log(string)" toReformat="false" toShortenFQNames="true">
-    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="clr" value="console.log(&quot;----------$COMPONENT$ is rendering---------&quot;);" description="Console.log for displaying rendering information" toReformat="false" toShortenFQNames="true">
+  <template name="clr" value="console.log(&quot;---$COMPONENT$ $END$---&quot;);" description="Console.log for displaying rendering information" toReformat="false" toShortenFQNames="true">
     <variable name="COMPONENT" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
@@ -750,7 +438,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="rclc" value="import React, { Component } from &quot;react&quot;;&#10;import {} from &quot;prop-types&quot;;&#10;import &quot;./$CLASSNAME$.scss&quot;;&#10;import { connect } from &quot;react-redux&quot;;&#10;&#10;const mapStateToProps = () =&gt; {&#10;  $PROP$&#10;}&#10;&#10;@connect(mapStateToProps)&#10;export default class $COMPONENT$ extends Component {&#10;  static propTypes = {&#10;    //myprop: PropTypes.string.isRequired,&#10;  };&#10;  &#10;  render() {&#10;    return (&#10;      &lt;div className=&quot;$CLASSNAME$&quot;&gt;$END$&lt;/div&gt;&#10;    );&#10;  }&#10;}&#10;" description="React: Create a React ES2015 class" toReformat="true" toShortenFQNames="true">
+  <template name="rclc" value="import React, { Component } from 'react'&#10;import {} from 'prop-types'&#10;import &quot;./$CLASSNAME$.scss&quot;;&#10;import { connect } from &quot;react-redux&quot;;&#10;&#10;const mapStateToProps = () =&gt; {&#10;  $PROP$&#10;}&#10;&#10;@connect(mapStateToProps)&#10;export default class $COMPONENT$ extends Component {&#10;  static propTypes = {&#10;    //myprop: PropTypes.string.isRequired,&#10;  };&#10;  &#10;  render() {&#10;    return (&#10;      &lt;div className=&quot;$CLASSNAME$&quot;&gt;$END$&lt;/div&gt;&#10;    );&#10;  }&#10;}&#10;" description="React: Create a React ES2015 class" toReformat="true" toShortenFQNames="true">
     <variable name="COMPONENT" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
     <variable name="PROP" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="CLASSNAME" expression="lowercaseAndDash(COMPONENT)" defaultValue="" alwaysStopAt="true" />
@@ -758,7 +446,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="clg" value="console.log($END$);" description="Console.log()" toReformat="false" toShortenFQNames="true">
+  <template name="cl" value="console.log($END$);" description="Console.log()" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -769,9 +457,16 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="ptsl" value="$COMP$.propTypes = { &#10;  $START$: object.$END$&#10;};&#10;" description="React: propTypes for stateless component" toReformat="false" toShortenFQNames="true">
+  <template name="ptsl" value="$COMP$.propTypes = { &#10;  $START$: T.object.$END$&#10;};&#10;" description="React: propTypes for stateless component" toReformat="false" toShortenFQNames="true">
     <variable name="COMP" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
     <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ptr" value="$START$: T.$TYPE$.isRequired," description="React: PropTypes.Required" toReformat="true" toShortenFQNames="true">
+    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
