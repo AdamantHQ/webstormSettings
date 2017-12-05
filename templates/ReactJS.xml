@@ -350,7 +350,8 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="wcn" value="/* webpackChunkName: '$END$' */" description="Webpack chunk name magic comment" toReformat="false" toShortenFQNames="true">
+  <template name="wcn" value="/* webpackChunkName: '$NAME$' */ $END$" description="Webpack chunk name magic comment" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
