@@ -363,4 +363,10 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="story" value="import React from 'react'&#10;import { storiesOf } from '@storybook/react'&#10;&#10;import $NAME$ from './$NAME$'&#10;&#10;storiesOf('$NAME$', module).add('$NAME$', () =&gt; (&#10;  &lt;$NAME$ /&gt;&#10;))" description="Storybook file" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
