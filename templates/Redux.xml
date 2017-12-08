@@ -6,13 +6,13 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="rca" value="case types.$NAME$:&#10;  return [$END$]" description="" toReformat="false" toShortenFQNames="true">
+  <template name="rca" value="case $NAME$:&#10;  return [$END$]" description="" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="clipboard()" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="rrc" value="case types.$START$:&#10;  return { ...state, $END$ }" description="Redux reducer case" toReformat="false" toShortenFQNames="true">
+  <template name="rrc" value="case $START$:&#10;  return { ...state, $END$ }" description="Redux reducer case" toReformat="false" toShortenFQNames="true">
     <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
@@ -28,7 +28,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="rap" value="export const $NAME$ = $DATA$ =&gt; ({&#10;  type: types.$UPNAME$,&#10;  payload: { $DATA$ },&#10;})" description="" toReformat="false" toShortenFQNames="true">
+  <template name="rap" value="export const $NAME$ = $DATA$ =&gt; ({&#10;  type: $UPNAME$,&#10;  payload: { $DATA$ },&#10;})" description="" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="DATA" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="UPNAME" expression="capitalizeAndUnderscore(NAME)" defaultValue="" alwaysStopAt="true" />
@@ -36,7 +36,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="ms" value="const mapStateToProps = state =&gt; ({&#10;  $PROP$: $PROP$Selector(state),&#10;});" description="mapStateToProps" toReformat="false" toShortenFQNames="true">
+  <template name="ms" value="const mapStateToProps = state =&gt; ({&#10;  $PROP$: $PROP$Selector(state),&#10;})" description="mapStateToProps" toReformat="false" toShortenFQNames="true">
     <variable name="PROP" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
@@ -48,7 +48,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="rco" value="case types.$NAME$:&#10;  return { ...state, $END$ }" description="Redux case with state as object" toReformat="false" toShortenFQNames="true">
+  <template name="rco" value="case $NAME$:&#10;  return { ...state, $END$ }" description="Redux case with state as object" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="clipboard()" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
@@ -66,7 +66,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="msp" value="const mapStateToProps = (state, props) =&gt; ({&#10;  $PROP$: $END$,&#10;});" description="mapStateToProps" toReformat="false" toShortenFQNames="true">
+  <template name="msp" value="const mapStateToProps = (state, props) =&gt; ({&#10;  $PROP$: $END$,&#10;})" description="mapStateToProps" toReformat="false" toShortenFQNames="true">
     <variable name="PROP" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
