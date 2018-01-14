@@ -337,7 +337,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="help" value="import helper from 'utils/bem-helper'&#10;const classes = helper('$COMP$')" description="React bem-helper" toReformat="false" toShortenFQNames="true">
+  <template name="help" value="import { bem } from 'utils'&#10;const classes = bem('$COMP$')" description="React bem-helper" toReformat="false" toShortenFQNames="true">
     <variable name="COMP" expression="lowercaseAndDash(fileNameWithoutExtension())" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
@@ -388,6 +388,12 @@
   <template name="hoc" value="import React from 'react'&#10;import T from 'prop-types'&#10;&#10;export default WrappedComponent =&gt; {&#10;  class $NAME$ extends React.Component {&#10;    static propTypes = {&#10;      isAuthorized: T.bool.isRequired,&#10;    }&#10;&#10;    static displayName = `$FILE$(${WrappedComponent.displayName ||&#10;      WrappedComponent.name ||&#10;      'Component'})`&#10;&#10;    render() {&#10;      return &lt;WrappedComponent {...this.props} /&gt;&#10;    }&#10;  }&#10;&#10;  return $NAME$&#10;}&#10;" description="HOC" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="FILE" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="exas" value="export { default as $COMP$ } from './$COMP$/$COMP$'" description="Export as" toReformat="false" toShortenFQNames="true">
+    <variable name="COMP" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
