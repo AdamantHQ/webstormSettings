@@ -25,6 +25,10 @@
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="ctrl z" />
   </action>
+  <action id="SelectAllOccurrences">
+    <keyboard-shortcut first-keystroke="ctrl meta g" />
+    <keyboard-shortcut first-keystroke="shift ctrl meta alt a" />
+  </action>
   <action id="SelectIn">
     <keyboard-shortcut first-keystroke="shift ctrl meta alt enter" />
   </action>
