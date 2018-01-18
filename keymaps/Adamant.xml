@@ -30,7 +30,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl meta alt a" />
   </action>
   <action id="SelectIn">
-    <keyboard-shortcut first-keystroke="shift ctrl meta alt enter" />
+    <keyboard-shortcut first-keystroke="alt escape" />
   </action>
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="ctrl g" />
