@@ -15,6 +15,9 @@
     <keyboard-shortcut first-keystroke="shift meta n" />
   </action>
   <action id="NewScratchFile" />
+  <action id="OpenFile">
+    <keyboard-shortcut first-keystroke="shift meta alt o" />
+  </action>
   <action id="PasteMultiple">
     <keyboard-shortcut first-keystroke="shift meta v" />
     <keyboard-shortcut first-keystroke="shift ctrl meta alt v" />
