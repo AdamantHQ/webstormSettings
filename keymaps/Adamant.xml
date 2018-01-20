@@ -5,6 +5,18 @@
   <action id="CloseProject">
     <keyboard-shortcut first-keystroke="shift meta w" />
   </action>
+  <action id="EditorCutLineBackward">
+    <keyboard-shortcut first-keystroke="alt k" />
+  </action>
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="meta alt back_space" />
+  </action>
+  <action id="EditorDeleteToLineEnd">
+    <keyboard-shortcut first-keystroke="meta delete" />
+  </action>
+  <action id="EditorDeleteToLineStart">
+    <keyboard-shortcut first-keystroke="meta back_space" />
+  </action>
   <action id="HideActiveWindow">
     <keyboard-shortcut first-keystroke="shift ctrl meta alt tab" />
   </action>
