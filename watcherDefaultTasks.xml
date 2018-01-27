@@ -14,9 +14,30 @@
       </option>
       <option name="outputFromStdout" value="false" />
       <option name="program" value="$USER_HOME$/AppData/Roaming/npm/babel.cmd" />
+      <option name="runOnExternalChanges" value="true" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="true" />
       <option name="workingDir" value="$FileDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="false">
+      <option name="arguments" value="--write $FilePath$" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="js" />
+      <option name="immediateSync" value="false" />
+      <option name="name" value="prettier" />
+      <option name="output" value="$ProjectFileDir$" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="$ProjectFileDir$/node_modules/.bin/prettier" />
+      <option name="runOnExternalChanges" value="false" />
+      <option name="scopeName" value="Current File" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="" />
       <envs />
     </TaskOptions>
   </component>
