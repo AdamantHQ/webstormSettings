@@ -5,6 +5,12 @@
   <action id="CloseProject">
     <keyboard-shortcut first-keystroke="shift meta w" />
   </action>
+  <action id="EditorCloneCaretAbove">
+    <keyboard-shortcut first-keystroke="shift ctrl meta alt up" />
+  </action>
+  <action id="EditorCloneCaretBelow">
+    <keyboard-shortcut first-keystroke="shift ctrl meta alt down" />
+  </action>
   <action id="EditorCutLineBackward">
     <keyboard-shortcut first-keystroke="alt k" />
   </action>
