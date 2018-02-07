@@ -16,7 +16,9 @@
     <variable name="class" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="class" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="className" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
+    <context>
+      <option name="JSP" value="true" />
+    </context>
   </template>
   <template name="a" value="&lt;a&gt;$END$&lt;/a&gt;" description="&lt;a href=&quot;...&quot;&gt;...&lt;/a&gt;" toReformat="true" toShortenFQNames="true">
     <variable name="class" expression="" defaultValue="" alwaysStopAt="true" />
@@ -97,7 +99,9 @@
     <variable name="className" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="className" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="className" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
+    <context>
+      <option name="JSP" value="true" />
+    </context>
   </template>
   <template name="script:s" value="&lt;script src=&quot;$END$&quot;&gt;&lt;/script&gt;" description="&lt;script src=&quot;...&quot;&gt;...&lt;/script&gt;" toReformat="true" toShortenFQNames="true">
     <context>
@@ -126,7 +130,9 @@
     <variable name="key" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="className" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="className" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
+    <context>
+      <option name="JSP" value="true" />
+    </context>
   </template>
   <template name="label" value="&lt;label for=&quot;$VAR0$&quot;&gt;$END$&lt;/label&gt;" description="&lt;label for=&quot;...&quot;&gt;...&lt;/label&gt;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
@@ -142,7 +148,9 @@
     <variable name="className" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="className" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="className" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
+    <context>
+      <option name="JSP" value="true" />
+    </context>
   </template>
   <template name="obj" value="&lt;object data=&quot;$VAR0$&quot; type=&quot;$VAR1$&quot;&gt;$END$&lt;/object&gt;" description="&lt;object data=&quot;...&quot; type=&quot;...&quot;&gt;...&lt;/object&gt;" toReformat="true" toShortenFQNames="true">
     <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
@@ -150,6 +158,8 @@
     <variable name="prop" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="prop" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="prop" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
+    <context>
+      <option name="JSP" value="true" />
+    </context>
   </template>
 </templateSet>
