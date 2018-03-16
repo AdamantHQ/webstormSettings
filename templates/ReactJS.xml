@@ -174,20 +174,20 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="im" value="import $FILE$ from '$PATH$'" description="React: import" toReformat="false" toShortenFQNames="true">
+  <template name="im" value="import $FILE$ from &quot;$PATH$&quot;" description="React: import" toReformat="false" toShortenFQNames="true">
     <variable name="PATH" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="FILE" expression="$PATH$" defaultValue="PATH" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="imd" value="import { $END$ } from '$START$'" description="React: destructured import" toReformat="false" toShortenFQNames="true">
+  <template name="imd" value="import { $END$ } from &quot;$START$&quot;" description="React: destructured import" toReformat="false" toShortenFQNames="true">
     <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="imc" value="import $EXPORT$ from './$CHILD$'" description="React: import children" toReformat="false" toShortenFQNames="true">
+  <template name="imc" value="import $EXPORT$ from &quot;./$CHILD$&quot;" description="React: import children" toReformat="false" toShortenFQNames="true">
     <variable name="CHILD" expression="jsClassName()" defaultValue="" alwaysStopAt="true" />
     <variable name="EXPORT" expression="" defaultValue="CHILD" alwaysStopAt="false" />
     <context>
@@ -206,7 +206,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="ims" value="import './$NAME$.scss'" description="React: import scss file" toReformat="false" toShortenFQNames="true">
+  <template name="ims" value="import &quot;./$NAME$.scss&quot;" description="React: import scss file" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="lowercaseAndDash(fileNameWithoutExtension())" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
@@ -394,6 +394,12 @@
   </template>
   <template name="exas" value="export { default as $COMP$ } from './$COMP$/$COMP$'" description="Export as" toReformat="false" toShortenFQNames="true">
     <variable name="COMP" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="reex" value="export { default as $COMP$ } from &quot;./$COMP$/$COMP$&quot;" description="Reexport formula for indices" toReformat="false" toShortenFQNames="true">
+    <variable name="COMP" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
