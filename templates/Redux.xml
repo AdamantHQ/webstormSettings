@@ -23,7 +23,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="conn" value="import { connect } from 'react-redux'" description="Import connect" toReformat="false" toShortenFQNames="true">
+  <template name="conn" value="import { connect } from &quot;react-redux&quot;" description="Import connect" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
