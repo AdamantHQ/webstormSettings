@@ -337,7 +337,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="help" value="import { bem } from 'utils'&#10;const classes = bem('$COMP$')" description="React bem-helper" toReformat="false" toShortenFQNames="true">
+  <template name="help" value="import { bem } from &quot;utils&quot;&#10;const classes = bem(&quot;$COMP$&quot;)" description="React bem-helper" toReformat="false" toShortenFQNames="true">
     <variable name="COMP" expression="lowercaseAndDash(fileNameWithoutExtension())" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
