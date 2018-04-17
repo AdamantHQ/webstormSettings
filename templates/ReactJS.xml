@@ -380,7 +380,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="immi" value="import $ICON$ from &quot;material-ui-icons/$ICON$&quot;" description="React: import material-ui icon" toReformat="false" toShortenFQNames="true">
+  <template name="immi" value="import { $ICON$ } from &quot;@material-ui/icons&quot;" description="React: import material-ui icon" toReformat="false" toShortenFQNames="true">
     <variable name="ICON" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
