@@ -102,6 +102,7 @@
     <variable name="className" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="className" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="className" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="className" expression="" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
   <template name="script:s" value="&lt;script src=&quot;$END$&quot;&gt;&lt;/script&gt;" description="&lt;script src=&quot;...&quot;&gt;...&lt;/script&gt;" toReformat="true" toShortenFQNames="true">
