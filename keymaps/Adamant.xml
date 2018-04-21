@@ -46,6 +46,9 @@
   <action id="RecentProjectListGroup">
     <keyboard-shortcut first-keystroke="shift ctrl meta alt p" />
   </action>
+  <action id="ReformatWithPrettierAction">
+    <keyboard-shortcut first-keystroke="shift ctrl meta alt s" />
+  </action>
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="shift f6" />
     <keyboard-shortcut first-keystroke="shift ctrl meta alt 6" />
@@ -76,7 +79,6 @@
   </action>
   <action id="Tool_External Tools_Prettify">
     <keyboard-shortcut first-keystroke="ctrl equals" />
-    <keyboard-shortcut first-keystroke="shift ctrl meta alt s" />
   </action>
   <action id="UnselectPreviousOccurrence">
     <keyboard-shortcut first-keystroke="shift ctrl g" />
