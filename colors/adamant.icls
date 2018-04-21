@@ -1,16 +1,17 @@
 <scheme name="adamant" version="142" parent_scheme="Darcula">
-  <option name="FONT_SCALE" value="1.25" />
+  <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
     <property name="created">2017-06-29T10:46:03</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2016.3.4.0.0</property>
-    <property name="modified">2018-02-07T09:44:45</property>
+    <property name="modified">2018-04-21T10:55:03</property>
     <property name="originalScheme">default1</property>
   </metaInfo>
-  <option name="EDITOR_FONT_SIZE" value="16" />
+  <option name="LINE_SPACING" value="1.0" />
+  <option name="EDITOR_FONT_SIZE" value="13" />
   <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
   <option name="CONSOLE_FONT_NAME" value="Source Code Pro" />
-  <option name="CONSOLE_FONT_SIZE" value="20" />
+  <option name="CONSOLE_FONT_SIZE" value="16" />
   <attributes>
     <option name="MARKDOWN_NAVIGATOR.BOLD_CODE_TEXT">
       <value>
