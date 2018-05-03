@@ -1,5 +1,5 @@
 <templateSet group="ReactJS">
-  <template name="rcls" value="import React, { Component } from 'react'&#10;import T from 'prop-types'&#10;import './$CLASSNAME$.scss'&#10;&#10;export default class $COMPONENT$ extends Component {&#10;  static propTypes = {&#10;    &#10;  }&#10;  &#10;  render() {&#10;    return (&#10;      &lt;div className=&quot;$CLASSNAME$&quot;&gt;$END$&lt;/div&gt;&#10;    )&#10;  }&#10;}&#10;" description="React: Create a React ES2015 class" toReformat="true" toShortenFQNames="true">
+  <template name="rcls" value="import React, { Component } from &quot;react&quot;&#10;import T from &quot;prop-types&quot;&#10;require(&quot;./$CLASSNAME$.scss&quot;)&#10;&#10;export default class $COMPONENT$ extends Component {&#10;  static propTypes = {&#10;    &#10;  }&#10;  &#10;  render() {&#10;    return (&#10;      &lt;div className=&quot;$CLASSNAME$&quot;&gt;$END$&lt;/div&gt;&#10;    )&#10;  }&#10;}&#10;" description="React: Create a React ES2015 class" toReformat="true" toShortenFQNames="true">
     <variable name="COMPONENT" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
     <variable name="CLASSNAME" expression="lowercaseAndDash(COMPONENT)" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -174,20 +174,20 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="im" value="import $FILE$ from '$PATH$'" description="React: import" toReformat="false" toShortenFQNames="true">
+  <template name="im" value="import $FILE$ from &quot;$PATH$&quot;" description="React: import" toReformat="false" toShortenFQNames="true">
     <variable name="PATH" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="FILE" expression="$PATH$" defaultValue="PATH" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="imd" value="import { $END$ } from '$START$'" description="React: destructured import" toReformat="false" toShortenFQNames="true">
+  <template name="imd" value="import { $END$ } from &quot;$START$&quot;" description="React: destructured import" toReformat="false" toShortenFQNames="true">
     <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="imc" value="import $EXPORT$ from './$CHILD$'" description="React: import children" toReformat="false" toShortenFQNames="true">
+  <template name="imc" value="import $EXPORT$ from &quot;./$CHILD$&quot;" description="React: import children" toReformat="false" toShortenFQNames="true">
     <variable name="CHILD" expression="jsClassName()" defaultValue="" alwaysStopAt="true" />
     <variable name="EXPORT" expression="" defaultValue="CHILD" alwaysStopAt="false" />
     <context>
@@ -206,15 +206,8 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="ims" value="import './$NAME$.scss'" description="React: import scss file" toReformat="false" toShortenFQNames="true">
+  <template name="ims" value="import &quot;./$NAME$.scss&quot;" description="React: import scss file" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="lowercaseAndDash(fileNameWithoutExtension())" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="rcon" value="import React, { Component } from 'react'&#10;import T from 'prop-types'&#10;import './$CLASSNAME$.scss'&#10;&#10;import { connect } from 'react-redux'&#10;&#10;const mapStateToProps = (state) =&gt; {&#10;  return {&#10;    &#10;  }&#10;}&#10;&#10;const mapDispatchToProps = (dispatch) =&gt; {&#10;  return {&#10;    &#10;  }&#10;}&#10;&#10;@connect(mapStateToProps, mapDispatchToProps)&#10;export default class $COMPONENT$ extends Component {&#10;  static propTypes = {&#10;    &#10;  }&#10;  &#10;  render() {&#10;    return (&#10;      &lt;div className=&quot;$CLASSNAME$&quot;&gt;$END$&lt;/div&gt;&#10;    )&#10;  }&#10;}&#10;" description="React: Create a React ES2015 class" toReformat="true" toShortenFQNames="true">
-    <variable name="COMPONENT" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
-    <variable name="CLASSNAME" expression="lowercaseAndDash(COMPONENT)" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -276,15 +269,6 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="rslc" value="import React from 'react'&#10;import T from 'prop-types'&#10;import './$CLASSNAME$.scss'&#10;import { connect } from 'react-redux'&#10;&#10;const $COMPONENT$ = () =&gt; (&#10;  &lt;div className=&quot;$CLASSNAME$&quot;&gt;&#10;    $END$&#10;  &lt;/div&gt;&#10;)&#10;&#10;&#10;$COMPONENT$.propTypes = {}&#10;&#10;const mapStateToProps = (state) =&gt; ({&#10;  $PROP$: get$UP$(state),&#10;})&#10;&#10;export default connect(mapStateToProps)($COMPONENT$)&#10;" description="React: create React Stateless Component" toReformat="true" toShortenFQNames="true">
-    <variable name="COMPONENT" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
-    <variable name="CLASSNAME" expression="lowercaseAndDash(COMPONENT)" defaultValue="" alwaysStopAt="false" />
-    <variable name="PROP" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="UP" expression="capitalize(PROP)" defaultValue="" alwaysStopAt="false" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
   <template name="com" value="$BLOCK$" description="Component name" toReformat="false" toShortenFQNames="true">
     <variable name="BLOCK" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -309,14 +293,6 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="rclc" value="import React, { Component } from 'react'&#10;import T from 'prop-types'&#10;import './$CLASSNAME$.scss'&#10;import { connect } from 'react-redux'&#10;&#10;const mapStateToProps = () =&gt; {&#10;  $PROP$&#10;}&#10;&#10;@connect(mapStateToProps)&#10;export default class $COMPONENT$ extends Component {&#10;  static propTypes = {&#10;&#10;  }&#10;  &#10;  render() {&#10;    return (&#10;      &lt;div className=&quot;$CLASSNAME$&quot;&gt;$END$&lt;/div&gt;&#10;    )&#10;  }&#10;}&#10;" description="React: Create a React ES2015 class" toReformat="true" toShortenFQNames="true">
-    <variable name="COMPONENT" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
-    <variable name="PROP" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="CLASSNAME" expression="lowercaseAndDash(COMPONENT)" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
   <template name="ptsl" value="$COMP$.propTypes = { &#10;  $START$: T.object.$END$&#10;};&#10;" description="React: propTypes for stateless component" toReformat="false" toShortenFQNames="true">
     <variable name="COMP" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
     <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
@@ -337,7 +313,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="help" value="import { bem } from 'utils'&#10;const classes = bem('$COMP$')" description="React bem-helper" toReformat="false" toShortenFQNames="true">
+  <template name="help" value="import { bem } from &quot;utils&quot;&#10;const classes = bem(&quot;$COMP$&quot;)" description="React bem-helper" toReformat="false" toShortenFQNames="true">
     <variable name="COMP" expression="lowercaseAndDash(fileNameWithoutExtension())" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
@@ -374,7 +350,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="ch" value="{...classes('$END$')}" description="Class helper" toReformat="false" toShortenFQNames="true">
+  <template name="ch" value="{...classes(&quot;$END$&quot;)}" description="Class helper" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -394,6 +370,24 @@
   </template>
   <template name="exas" value="export { default as $COMP$ } from './$COMP$/$COMP$'" description="Export as" toReformat="false" toShortenFQNames="true">
     <variable name="COMP" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="reex" value="export { default as $COMP$ } from &quot;./$COMP$/$COMP$&quot;" description="Reexport formula for indices" toReformat="false" toShortenFQNames="true">
+    <variable name="COMP" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="immi" value="import { $ICON$ } from &quot;@material-ui/icons&quot;" description="React: import material-ui icon" toReformat="false" toShortenFQNames="true">
+    <variable name="ICON" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="imm" value="import { $BLOCK$ } from &quot;material-ui&quot;" description="React: import material-ui block" toReformat="false" toShortenFQNames="true">
+    <variable name="BLOCK" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>

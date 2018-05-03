@@ -23,6 +23,9 @@
   <action id="EditorDeleteToLineStart">
     <keyboard-shortcut first-keystroke="meta back_space" />
   </action>
+  <action id="FindWordAtCaret">
+    <keyboard-shortcut first-keystroke="shift ctrl f" />
+  </action>
   <action id="HideActiveWindow">
     <keyboard-shortcut first-keystroke="shift ctrl meta alt tab" />
   </action>
@@ -46,6 +49,9 @@
   <action id="RecentProjectListGroup">
     <keyboard-shortcut first-keystroke="shift ctrl meta alt p" />
   </action>
+  <action id="ReformatWithPrettierAction">
+    <keyboard-shortcut first-keystroke="shift ctrl meta alt s" />
+  </action>
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="shift f6" />
     <keyboard-shortcut first-keystroke="shift ctrl meta alt 6" />
@@ -68,12 +74,14 @@
   <action id="SurroundWithEmmet">
     <keyboard-shortcut first-keystroke="shift ctrl e" />
   </action>
+  <action id="ToggleDistractionFreeMode">
+    <keyboard-shortcut first-keystroke="shift ctrl meta alt equals" />
+  </action>
   <action id="Tool_External Tools_CSScomb">
     <keyboard-shortcut first-keystroke="ctrl alt 1" />
   </action>
   <action id="Tool_External Tools_Prettify">
     <keyboard-shortcut first-keystroke="ctrl equals" />
-    <keyboard-shortcut first-keystroke="ctrl slash" />
   </action>
   <action id="UnselectPreviousOccurrence">
     <keyboard-shortcut first-keystroke="shift ctrl g" />
