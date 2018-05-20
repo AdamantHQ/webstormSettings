@@ -386,7 +386,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="imm" value="import { $BLOCK$ } from &quot;material-ui&quot;" description="React: import material-ui block" toReformat="false" toShortenFQNames="true">
+  <template name="imm" value="import { $BLOCK$ } from &quot;@material-ui/core&quot;" description="React: import material-ui block" toReformat="false" toShortenFQNames="true">
     <variable name="BLOCK" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
