@@ -91,7 +91,6 @@
     <ignoreAction name="TypeScript/Make 'public'" />
     <ignoreAction name="XML/Add Xsi schema location for external resource" />
     <ignoreAction name="XML/Choose Color" />
-    <ignoreAction name="XML/Collapse empty tag" />
     <ignoreAction name="XML/Fetch external resource" />
     <ignoreAction name="XML/Insert namespace prefix" />
     <ignoreAction name="XML/Manually setup external resource" />
