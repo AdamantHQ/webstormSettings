@@ -391,7 +391,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="bem" value="import { bem } from &quot;utils&quot;&#10;const classes = bem(&quot;$COMP$&quot;)" toReformat="false" toShortenFQNames="true">
+  <template name="bem" value="import { bem } from &quot;utils&quot;&#10;const classes = bem(&quot;$COMP$&quot;)" description="" toReformat="false" toShortenFQNames="true">
     <variable name="COMP" expression="lowercaseAndDash(fileNameWithoutExtension())" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
