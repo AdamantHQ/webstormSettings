@@ -2,7 +2,6 @@
   <component name="IntentionManagerSettings">
     <ignoreAction name="Flow JS/Specify variable type explicitly" />
     <ignoreAction name="HTML/Update background-image size" />
-    <ignoreAction name="JavaScript/Convert anonymous function to named function" />
     <ignoreAction name="JavaScript/Convert parameters to object" />
     <ignoreAction name="JavaScript/Convert to forEach call on array" />
     <ignoreAction name="JavaScript/Split declarations" />
@@ -25,7 +24,6 @@
     <ignoreAction name="JavaScript/Declaration/Split Declaration And Move To Scope Start" />
     <ignoreAction name="JavaScript/ECMAScript 6/Change ES6 import " />
     <ignoreAction name="JavaScript/ECMAScript 6/Convert 'forEach' to 'for..of'" />
-    <ignoreAction name="JavaScript/ECMAScript 6/Convert arrow function to anonymous function" />
     <ignoreAction name="JavaScript/ECMAScript 6/Convert function and its member declarations to class" />
     <ignoreAction name="JavaScript/ECMAScript 6/Create Getter" />
     <ignoreAction name="JavaScript/ECMAScript 6/Create Getter and Setter" />
@@ -33,7 +31,6 @@
     <ignoreAction name="JavaScript/ECMAScript 6/Move to a file with matching name" />
     <ignoreAction name="JavaScript/ECMAScript 6/Rename file to match type name" />
     <ignoreAction name="JavaScript/ECMAScript 6/Replace string with template string" />
-    <ignoreAction name="JavaScript/JSX/Remove braces" />
     <ignoreAction name="JavaScript/Language Injection/Annotate injection with comment" />
     <ignoreAction name="JavaScript/Language Injection/Don't format injected content" />
     <ignoreAction name="JavaScript/Numbers/Convert To Binary" />
@@ -99,5 +96,7 @@
     <ignoreAction name="CSS/Create Selector" />
     <ignoreAction name="CSS/Extract inline CSS" />
     <ignoreAction name="CSS/Replace quotes" />
+    <ignoreAction name="JavaScript/ECMAScript 6/Convert arrow function to anonymous function" />
+    <ignoreAction name="JavaScript/Convert anonymous function to named function" />
   </component>
 </application>
