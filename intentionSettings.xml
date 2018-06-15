@@ -2,23 +2,9 @@
   <component name="IntentionManagerSettings">
     <ignoreAction name="Flow JS/Specify variable type explicitly" />
     <ignoreAction name="HTML/Update background-image size" />
-    <ignoreAction name="JavaScript/Convert parameters to object" />
-    <ignoreAction name="JavaScript/Convert to forEach call on array" />
-    <ignoreAction name="JavaScript/Split declarations" />
     <ignoreAction name="JavaScript/Boolean/DeMorgan Law" />
     <ignoreAction name="JavaScript/Boolean/Negate Comparison" />
     <ignoreAction name="JavaScript/Boolean/Remove Boolean Equality" />
-    <ignoreAction name="JavaScript/Control Flow/Merge Else If" />
-    <ignoreAction name="JavaScript/Control Flow/Merge Equivalent Ifs To ORed Condition" />
-    <ignoreAction name="JavaScript/Control Flow/Merge Nested Ifs To ANDed Condition" />
-    <ignoreAction name="JavaScript/Control Flow/Merge Parallel For Loops" />
-    <ignoreAction name="JavaScript/Control Flow/Merge Parallel For-In Loops" />
-    <ignoreAction name="JavaScript/Control Flow/Merge Parallel Ifs" />
-    <ignoreAction name="JavaScript/Control Flow/Remove Redundant Else" />
-    <ignoreAction name="JavaScript/Control Flow/Simplify If Else" />
-    <ignoreAction name="JavaScript/Control Flow/Split ANDed Condition To Nested Ifs" />
-    <ignoreAction name="JavaScript/Control Flow/Split Else If" />
-    <ignoreAction name="JavaScript/Control Flow/Split ORed Condition To Equivalent Ifs" />
     <ignoreAction name="JavaScript/Declaration/Merge Declaration And Initialization" />
     <ignoreAction name="JavaScript/Declaration/Split Declaration And Initialization" />
     <ignoreAction name="JavaScript/Declaration/Split Declaration And Move To Scope Start" />
@@ -97,6 +83,22 @@
     <ignoreAction name="CSS/Extract inline CSS" />
     <ignoreAction name="CSS/Replace quotes" />
     <ignoreAction name="JavaScript/ECMAScript 6/Convert arrow function to anonymous function" />
+    <ignoreAction name="JavaScript/Control Flow/Merge Else If" />
+    <ignoreAction name="JavaScript/Control Flow/Merge Equivalent Ifs To ORed Condition" />
+    <ignoreAction name="JavaScript/Control Flow/Merge Nested Ifs To ANDed Condition" />
+    <ignoreAction name="JavaScript/Control Flow/Merge Parallel For Loops" />
+    <ignoreAction name="JavaScript/Control Flow/Merge Parallel For-In Loops" />
+    <ignoreAction name="JavaScript/Control Flow/Merge Parallel Ifs" />
+    <ignoreAction name="JavaScript/Control Flow/Remove Redundant Else" />
+    <ignoreAction name="JavaScript/Control Flow/Replace If With Switch" />
+    <ignoreAction name="JavaScript/Control Flow/Replace Switch With If" />
+    <ignoreAction name="JavaScript/Control Flow/Simplify If Else" />
+    <ignoreAction name="JavaScript/Control Flow/Split ANDed Condition To Nested Ifs" />
+    <ignoreAction name="JavaScript/Control Flow/Split Else If" />
+    <ignoreAction name="JavaScript/Control Flow/Split ORed Condition To Equivalent Ifs" />
     <ignoreAction name="JavaScript/Convert anonymous function to named function" />
+    <ignoreAction name="JavaScript/Convert parameters to object" />
+    <ignoreAction name="JavaScript/Convert to forEach call on array" />
+    <ignoreAction name="JavaScript/Split declarations" />
   </component>
 </application>
