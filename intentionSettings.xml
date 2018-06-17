@@ -84,16 +84,6 @@
     <ignoreAction name="JavaScript/Declaration/Merge Declaration And Initialization" />
     <ignoreAction name="JavaScript/Declaration/Split Declaration And Initialization" />
     <ignoreAction name="JavaScript/Declaration/Split Declaration And Move To Scope Start" />
-    <ignoreAction name="JavaScript/ECMAScript 6/Change ES6 import " />
-    <ignoreAction name="JavaScript/ECMAScript 6/Convert 'forEach' to 'for..of'" />
-    <ignoreAction name="JavaScript/ECMAScript 6/Convert template string to use visible line separators" />
-    <ignoreAction name="JavaScript/ECMAScript 6/Convert to multi-line string template" />
-    <ignoreAction name="JavaScript/ECMAScript 6/Create Getter" />
-    <ignoreAction name="JavaScript/ECMAScript 6/Create Getter and Setter" />
-    <ignoreAction name="JavaScript/ECMAScript 6/Create Setter" />
-    <ignoreAction name="JavaScript/ECMAScript 6/Move to a file with matching name" />
-    <ignoreAction name="JavaScript/ECMAScript 6/Rename file to match type name" />
-    <ignoreAction name="JavaScript/ECMAScript 6/Replace string with template string" />
     <ignoreAction name="JavaScript/Language Injection/Annotate injection with comment" />
     <ignoreAction name="JavaScript/Language Injection/Don't format injected content" />
     <ignoreAction name="JavaScript/Numbers/Convert To Binary" />
@@ -109,7 +99,17 @@
     <ignoreAction name="JavaScript/Other/Replace Single-Quoted String with Double-Quoted String" />
     <ignoreAction name="JavaScript/Shift Operation/Replace Multiply with Shift" />
     <ignoreAction name="JavaScript/Shift Operation/Replace Shift with Multiply" />
+    <ignoreAction name="JavaScript/ECMAScript 6/Change ES6 import " />
+    <ignoreAction name="JavaScript/ECMAScript 6/Convert 'forEach' to 'for..of'" />
     <ignoreAction name="JavaScript/ECMAScript 6/Convert arrow function to anonymous function" />
     <ignoreAction name="JavaScript/ECMAScript 6/Convert function and its member declarations to class" />
+    <ignoreAction name="JavaScript/ECMAScript 6/Convert template string to use visible line separators" />
+    <ignoreAction name="JavaScript/ECMAScript 6/Convert to multi-line string template" />
+    <ignoreAction name="JavaScript/ECMAScript 6/Create Getter" />
+    <ignoreAction name="JavaScript/ECMAScript 6/Create Getter and Setter" />
+    <ignoreAction name="JavaScript/ECMAScript 6/Create Setter" />
+    <ignoreAction name="JavaScript/ECMAScript 6/Move to a file with matching name" />
+    <ignoreAction name="JavaScript/ECMAScript 6/Rename file to match type name" />
+    <ignoreAction name="JavaScript/ECMAScript 6/Replace string with template string" />
   </component>
 </application>
