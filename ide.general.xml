@@ -16,5 +16,6 @@
     <entry key="mac.editor.thumb.darcula.fill.max" value="163" />
     <entry key="ide.editor.tabs.open.at.the.end" value="true" />
     <entry key="ide.tooltip.show.with.actions" value="true" />
+    <entry key="ide.mac.allowDarkWindowDecorations" value="true" />
   </component>
 </application>
