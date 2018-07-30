@@ -26,7 +26,6 @@
     <ignoreAction name="TypeScript/Convert parameter property to class field" />
     <ignoreAction name="TypeScript/Convert type alias to enum" />
     <ignoreAction name="TypeScript/Implement in derived classes" />
-    <ignoreAction name="XML/Collapse empty tag" />
     <ignoreAction name="XML/Remove attribute" />
   </component>
 </application>
