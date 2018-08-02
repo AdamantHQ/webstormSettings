@@ -1,0 +1,8 @@
+<application>
+  <component name="PostfixTemplates">
+    <template id="ma@userDefined" key=".ma" provider="builtin.js" language-level="ES5" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="$EXPR$.map(item =&gt; $END$)" toReformat="true" toShortenFQNames="true" />
+    </template>
+  </component>
+</application>
