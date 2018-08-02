@@ -67,6 +67,9 @@
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="ctrl z" />
   </action>
+  <action id="SearchEverywhere">
+    <keyboard-shortcut first-keystroke="shift ctrl meta alt space" />
+  </action>
   <action id="SelectAllOccurrences">
     <keyboard-shortcut first-keystroke="ctrl meta g" />
     <keyboard-shortcut first-keystroke="shift ctrl meta alt a" />
