@@ -1,4 +1,8 @@
 <keymap version="1" name="Adamant" parent="Mac OS X 10.5+">
+  <action id="AceAction">
+    <keyboard-shortcut first-keystroke="ctrl semicolon" />
+    <keyboard-shortcut first-keystroke="meta j" />
+  </action>
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="meta alt i" />
   </action>
@@ -36,6 +40,9 @@
   </action>
   <action id="HideActiveWindow">
     <keyboard-shortcut first-keystroke="shift ctrl meta alt tab" />
+  </action>
+  <action id="InsertLiveTemplate">
+    <keyboard-shortcut first-keystroke="shift meta j" />
   </action>
   <action id="LocalHistory.ShowHistory">
     <keyboard-shortcut first-keystroke="shift ctrl h" />

@@ -1,0 +1,9 @@
+<application>
+  <component name="AbbreviationManager">
+    <abbreviations>
+      <action id="AceAction">
+        <abbreviation name="aj" />
+      </action>
+    </abbreviations>
+  </component>
+</application>
