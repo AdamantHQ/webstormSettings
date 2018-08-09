@@ -368,7 +368,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="reex" value="export { default as $COMP$ } from &quot;./$COMP$/$COMP$&quot;" description="Reexport formula for indices" toReformat="false" toShortenFQNames="true">
+  <template name="reex" value="export $COMP$ from &quot;./$COMP$/$COMP$&quot;" description="Reexport formula for indices" toReformat="false" toShortenFQNames="true">
     <variable name="COMP" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
