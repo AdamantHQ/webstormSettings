@@ -1,7 +1,6 @@
 <application>
   <component name="IntentionManagerSettings">
     <ignoreAction name="Flow JS/Specify variable type explicitly" />
-    <ignoreAction name="HTML/Update background-image size" />
     <ignoreAction name="Language Injection/Edit Injected Fragment" />
     <ignoreAction name="Language Injection/Edit Injection Settings" />
     <ignoreAction name="Language Injection/Inject language or reference" />
@@ -12,13 +11,6 @@
     <ignoreAction name="TypeScript/Make 'private'" />
     <ignoreAction name="TypeScript/Make 'protected'" />
     <ignoreAction name="TypeScript/Make 'public'" />
-    <ignoreAction name="XML/Add Xsi schema location for external resource" />
-    <ignoreAction name="XML/Choose Color" />
-    <ignoreAction name="XML/Fetch external resource" />
-    <ignoreAction name="XML/Insert namespace prefix" />
-    <ignoreAction name="XML/Manually setup external resource" />
-    <ignoreAction name="XML/Reset to default namespace" />
-    <ignoreAction name="XML/Split current tag" />
     <ignoreAction name="CSS/Create Selector" />
     <ignoreAction name="CSS/Extract inline CSS" />
     <ignoreAction name="CSS/Replace quotes" />
@@ -26,6 +18,5 @@
     <ignoreAction name="TypeScript/Convert parameter property to class field" />
     <ignoreAction name="TypeScript/Convert type alias to enum" />
     <ignoreAction name="TypeScript/Implement in derived classes" />
-    <ignoreAction name="XML/Remove attribute" />
   </component>
 </application>
