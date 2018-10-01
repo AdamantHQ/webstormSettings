@@ -4,4 +4,10 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="chpt" value="children: T.oneOfType([T.string, T.number, T.node, T.element])," description="Children PropTypes" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="ECMAScript6" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
