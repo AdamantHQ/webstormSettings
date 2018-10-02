@@ -397,7 +397,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="lod" value="import _ from &quot;lodash-es&quot;" description="import lodash" toReformat="false" toShortenFQNames="true">
+  <template name="lod" value="import _ from &quot;lodash&quot;" description="import lodash" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
