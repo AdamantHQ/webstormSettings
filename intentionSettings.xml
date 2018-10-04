@@ -18,5 +18,8 @@
     <ignoreAction name="TypeScript/Convert parameter property to class field" />
     <ignoreAction name="TypeScript/Convert type alias to enum" />
     <ignoreAction name="TypeScript/Implement in derived classes" />
+    <ignoreAction name="JavaScript/Introduce local variable" />
+    <ignoreAction name="XML/Remove attribute" />
+    <ignoreAction name="JavaScript/ECMAScript 6/Convert arrow function to anonymous function" />
   </component>
 </application>
