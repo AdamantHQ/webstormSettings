@@ -1,5 +1,5 @@
 <templateSet group="ReactJS">
-  <template name="rcls" value="import React, { Component } from &quot;react&quot;&#10;import T from &quot;prop-types&quot;&#10;require(&quot;./$CLASSNAME$.scss&quot;)&#10;&#10;export default class $COMPONENT$ extends Component {&#10;  static propTypes = {&#10;    &#10;  }&#10;  &#10;  render() {&#10;    return (&#10;      &lt;div className=&quot;$CLASSNAME$&quot;&gt;$END$&lt;/div&gt;&#10;    )&#10;  }&#10;}&#10;" description="React: Create a React ES2015 class" toReformat="true" toShortenFQNames="true">
+  <template name="rcls" value="import React, { Component } from &quot;react&quot;&#10;import T from &quot;prop-types&quot;&#10;import &quot;./$CLASSNAME$.scss&quot;&#10;&#10;export default class $COMPONENT$ extends Component {&#10;  static propTypes = {&#10;    &#10;  }&#10;  &#10;  render() {&#10;    return (&#10;      &lt;div className=&quot;$CLASSNAME$&quot;&gt;$END$&lt;/div&gt;&#10;    )&#10;  }&#10;}&#10;" description="React: Create a React ES2015 class" toReformat="true" toShortenFQNames="true">
     <variable name="COMPONENT" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
     <variable name="CLASSNAME" expression="lowercaseAndDash(COMPONENT)" defaultValue="" alwaysStopAt="true" />
     <context>
