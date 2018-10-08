@@ -101,6 +101,7 @@
   </action>
   <action id="ImplementMethods" />
   <action id="InsertLiveTemplate" />
+  <action id="IntroduceVariable" />
   <action id="LocalHistory.ShowHistory">
     <keyboard-shortcut first-keystroke="shift ctrl h" />
   </action>
@@ -118,8 +119,7 @@
     <keyboard-shortcut first-keystroke="shift meta alt o" />
   </action>
   <action id="PasteMultiple">
-    <keyboard-shortcut first-keystroke="shift meta v" />
-    <keyboard-shortcut first-keystroke="shift ctrl meta alt v" />
+    <keyboard-shortcut first-keystroke="meta alt v" />
   </action>
   <action id="QuickJavaDoc">
     <keyboard-shortcut first-keystroke="f1" />
