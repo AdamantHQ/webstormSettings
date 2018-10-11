@@ -25,6 +25,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Implementation(s)">
+        <Item>
+          <IdeaActionID>GotoImplementation</IdeaActionID>
+          <ShortCut>'⌥⌘B' or '⌥⌘Button1 Click'</ShortCut>
+          <Description>Implementation(s)</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Open...">
         <Item>
           <IdeaActionID>OpenFile</IdeaActionID>
@@ -102,7 +110,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'⌘F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>19</Count>
+          <Count>20</Count>
         </Item>
       </Statistic>
       <Statistic Action="Type Declaration">
