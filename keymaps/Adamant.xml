@@ -11,6 +11,7 @@
     <keyboard-shortcut first-keystroke="ctrl alt semicolon" />
     <keyboard-shortcut first-keystroke="shift meta j" />
   </action>
+  <action id="ActivateFindToolWindow" />
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="meta alt i" />
   </action>
@@ -87,6 +88,7 @@
     <keyboard-shortcut first-keystroke="shift up" />
     <keyboard-shortcut first-keystroke="shift ctrl i" />
   </action>
+  <action id="FileChooser.GotoModule" />
   <action id="FindUsages">
     <keyboard-shortcut first-keystroke="alt f7" />
     <keyboard-shortcut first-keystroke="meta alt 7" />
@@ -159,6 +161,9 @@
   </action>
   <action id="SurroundWithEmmet">
     <keyboard-shortcut first-keystroke="shift ctrl e" />
+  </action>
+  <action id="ToggleBookmark">
+    <keyboard-shortcut first-keystroke="meta 3" />
   </action>
   <action id="ToggleDistractionFreeMode">
     <keyboard-shortcut first-keystroke="shift ctrl meta alt equals" />
