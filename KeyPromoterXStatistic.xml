@@ -38,7 +38,7 @@
           <IdeaActionID>EvaluateExpression</IdeaActionID>
           <ShortCut>'⌥F8'</ShortCut>
           <Description>Evaluate Expression...</Description>
-          <Count>13</Count>
+          <Count>16</Count>
         </Item>
       </Statistic>
       <Statistic Action="Extend Selection">
@@ -118,7 +118,7 @@
           <IdeaActionID>Rerun</IdeaActionID>
           <ShortCut>'⌘R'</ShortCut>
           <Description>Rerun 'app.js'</Description>
-          <Count>112</Count>
+          <Count>118</Count>
         </Item>
       </Statistic>
       <Statistic Action="Resume Program">
@@ -126,7 +126,7 @@
           <IdeaActionID>Resume</IdeaActionID>
           <ShortCut>'⌥⌘R' or 'F9'</ShortCut>
           <Description>Resume Program</Description>
-          <Count>155</Count>
+          <Count>160</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run">
