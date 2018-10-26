@@ -22,7 +22,7 @@
           <IdeaActionID>ActivateDebugToolWindow</IdeaActionID>
           <ShortCut>'⌘5'</ShortCut>
           <Description>Debug</Description>
-          <Count>8</Count>
+          <Count>9</Count>
         </Item>
       </Statistic>
       <Statistic Action="Debug...">
@@ -97,6 +97,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Rerun 'ModelSelector.js'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'⌘R'</ShortCut>
+          <Description>Rerun 'ModelSelector.js'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Rerun 'ModelService.js'">
         <Item>
           <IdeaActionID>Rerun</IdeaActionID>
@@ -119,6 +127,14 @@
           <ShortCut>'⌘R'</ShortCut>
           <Description>Rerun 'app.js'</Description>
           <Count>118</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'localhost:5000'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'⌘R'</ShortCut>
+          <Description>Rerun 'localhost:5000'</Description>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Resume Program">
@@ -207,6 +223,14 @@
           <ShortCut>'⌘F2'</ShortCut>
           <Description>Stop 'app.js'</Description>
           <Count>24</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'localhost:5000'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'⌘F2'</ShortCut>
+          <Description>Stop 'localhost:5000'</Description>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="TODO">
