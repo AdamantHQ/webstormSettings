@@ -291,6 +291,14 @@
           <Count>21</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Quick Documentation">
+        <Item>
+          <IdeaActionID>QuickJavaDoc</IdeaActionID>
+          <ShortCut>'⌥⌘Button1 Click'</ShortCut>
+          <Description>Quick Documentation</Description>
+          <Count>4</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Toggle Line Breakpoint">
         <Item>
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
