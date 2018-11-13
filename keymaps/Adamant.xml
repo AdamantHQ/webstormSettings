@@ -19,6 +19,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl a" />
   </action>
   <action id="ChangesView.Move" />
+  <action id="ChooseDebugConfiguration">
+    <keyboard-shortcut first-keystroke="shift alt d" />
+  </action>
   <action id="CloseProject">
     <keyboard-shortcut first-keystroke="shift meta w" />
   </action>
@@ -101,6 +104,9 @@
   <action id="Git.ResolveConflicts">
     <keyboard-shortcut first-keystroke="shift ctrl v" />
   </action>
+  <action id="GotoImplementation">
+    <keyboard-shortcut first-keystroke="meta alt b" />
+  </action>
   <action id="HideActiveWindow">
     <keyboard-shortcut first-keystroke="shift ctrl meta alt tab" />
   </action>
@@ -127,8 +133,8 @@
     <keyboard-shortcut first-keystroke="meta alt v" />
   </action>
   <action id="QuickJavaDoc">
-    <keyboard-shortcut first-keystroke="f1" />
-    <mouse-shortcut keystroke="control button2" />
+    <mouse-shortcut keystroke="meta alt button1" />
+    <keyboard-shortcut first-keystroke="meta alt space" />
   </action>
   <action id="RecentProjectListGroup">
     <keyboard-shortcut first-keystroke="shift ctrl meta alt p" />
