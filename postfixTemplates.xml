@@ -2,7 +2,28 @@
   <component name="PostfixTemplates">
     <template id="ma@userDefined" key=".ma" provider="builtin.js" language-level="ES5" topmost="false">
       <conditions />
-      <template name="fakeKey" value="$EXPR$.map(item =&gt; $END$)" toReformat="true" toShortenFQNames="true" />
+      <template name="fakeKey" value="$EXPR$.map(item =&gt; $END$)" description="" toReformat="true" toShortenFQNames="true" />
     </template>
+  </component>
+  <component name="PostfixTemplatesSettings">
+    <option name="providerToDisabledTemplates">
+      <disabled-templates provider="builtin.js">
+        <value>
+          <set>
+            <option value="com.intellij.lang.javascript.template.postfix.JSForInPostfixTemplate#.forin" />
+            <option value="com.intellij.lang.javascript.template.postfix.JSForInPostfixTemplate#.itin" />
+            <option value="com.intellij.lang.javascript.template.postfix.JSForOfPostfixTemplate#.forof" />
+            <option value="com.intellij.lang.javascript.template.postfix.JSIfInstanceOfPostfixTemplate#.instanceof" />
+            <option value="com.intellij.lang.javascript.template.postfix.JSIfTypeOfPostfixTemplate#.typeofif" />
+            <option value="com.intellij.lang.javascript.template.postfix.JSIntroduceVarPostfixTemplate#.var" />
+            <option value="com.intellij.lang.javascript.template.postfix.JSNotNullStatementPostfixTemplate#.notnull" />
+            <option value="com.intellij.lang.javascript.template.postfix.JSNullStatementPostfixTemplate#.null" />
+            <option value="com.intellij.lang.javascript.template.postfix.JSThrowStatementPostfixTemplate#.throw" />
+            <option value="com.intellij.lang.javascript.template.postfix.JSTypeOfExpressionPostfixTemplate#.typeof" />
+            <option value="com.intellij.lang.javascript.template.postfix.JSUndefPostfixTemplate#.undef" />
+          </set>
+        </value>
+      </disabled-templates>
+    </option>
   </component>
 </application>
