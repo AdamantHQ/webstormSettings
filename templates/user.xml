@@ -1,0 +1,12 @@
+<templateSet group="user">
+  <template name="ct" value="console.time('$END$') // eslint-disable-line" description="console.time" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cte" value="console.timeEnd('$END$') // eslint-disable-line" description="console.timeEnd" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
