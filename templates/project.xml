@@ -23,4 +23,12 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="att" value="&quot;$START$&quot;: {&#10;  &quot;type&quot;: &quot;$TYPE$&quot;,&#10;  &quot;title&quot;: &quot;$TITLE$&quot;&#10;}" description="JSON attribute" toReformat="false" toShortenFQNames="true">
+    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TITLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSON" value="true" />
+    </context>
+  </template>
 </templateSet>
