@@ -193,6 +193,14 @@
           <Count>3</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Rerun 'Models'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'⌘R'</ShortCut>
+          <Description>Rerun 'Models'</Description>
+          <Count>3</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Rerun 'TablePaginationActions.render.should render disabled IconButtons for FirstPage &amp; KeyboardArrowLeft icons'">
         <Item>
           <IdeaActionID>Rerun</IdeaActionID>
@@ -278,6 +286,14 @@
           <IdeaActionID>RunClass</IdeaActionID>
           <ShortCut>'⌃⇧R'</ShortCut>
           <Description>Run 'PaymentToolbar.js'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Run 'schema.test.ts'">
+        <Item>
+          <IdeaActionID>RunClass</IdeaActionID>
+          <ShortCut>'⌃⇧R'</ShortCut>
+          <Description>Run 'schema.test.ts'</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
