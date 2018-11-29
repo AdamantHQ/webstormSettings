@@ -305,6 +305,14 @@
           <Count>2</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Rerun 'start:debug'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'⌘R'</ShortCut>
+          <Description>Rerun 'start:debug'</Description>
+          <Count>3</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Rerun 'start:dev'">
         <Item>
           <IdeaActionID>Rerun</IdeaActionID>
@@ -390,7 +398,7 @@
           <IdeaActionID>ShowExecutionPoint</IdeaActionID>
           <ShortCut>'⌥F10'</ShortCut>
           <Description>Show Execution Point</Description>
-          <Count>30</Count>
+          <Count>31</Count>
         </Item>
       </Statistic>
       <Statistic Action="Show History">
