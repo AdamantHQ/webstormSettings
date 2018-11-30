@@ -185,6 +185,14 @@
           <Count>7</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Rerun 'Enums.all enum keys should be present in corresponding enumTitle'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'⌘R'</ShortCut>
+          <Description>Rerun 'Enums.all enum keys should be present in corresponding enumTitle'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Rerun 'LetterService (1)'">
         <Item>
           <IdeaActionID>Rerun</IdeaActionID>
