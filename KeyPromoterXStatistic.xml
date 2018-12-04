@@ -553,6 +553,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Unwrap/Remove...">
+        <Item>
+          <IdeaActionID>Unwrap</IdeaActionID>
+          <ShortCut>'⇧⌘⌦'</ShortCut>
+          <Description>Unwrap/Remove...</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Update 'app.js'">
         <Item>
           <IdeaActionID>liveedit.UpdateRunningApplication</IdeaActionID>
