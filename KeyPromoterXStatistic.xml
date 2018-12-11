@@ -334,7 +334,7 @@
           <IdeaActionID>Resume</IdeaActionID>
           <ShortCut>'⌥⌘R' or 'F9'</ShortCut>
           <Description>Resume Program</Description>
-          <Count>264</Count>
+          <Count>272</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run">
@@ -414,7 +414,7 @@
           <IdeaActionID>ShowExecutionPoint</IdeaActionID>
           <ShortCut>'⌥F10'</ShortCut>
           <Description>Show Execution Point</Description>
-          <Count>47</Count>
+          <Count>49</Count>
         </Item>
       </Statistic>
       <Statistic Action="Show History">
