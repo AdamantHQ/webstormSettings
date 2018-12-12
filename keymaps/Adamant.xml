@@ -19,6 +19,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl a" />
   </action>
   <action id="ChangesView.Move" />
+  <action id="ChangesView.ShelveSilently" />
   <action id="ChooseDebugConfiguration">
     <keyboard-shortcut first-keystroke="shift alt d" />
   </action>
@@ -118,7 +119,10 @@
   <action id="InsertLiveTemplate" />
   <action id="IntroduceVariable" />
   <action id="LocalHistory.ShowHistory">
-    <keyboard-shortcut first-keystroke="shift ctrl h" />
+    <keyboard-shortcut first-keystroke="meta h" />
+  </action>
+  <action id="LocalHistory.ShowSelectionHistory">
+    <keyboard-shortcut first-keystroke="shift meta h" />
   </action>
   <action id="MarkdownNavigator.InsertLink" />
   <action id="MarkdownNavigator.ToggleItalic" />
@@ -137,6 +141,7 @@
   <action id="PasteMultiple">
     <keyboard-shortcut first-keystroke="meta alt v" />
   </action>
+  <action id="PopupHector" />
   <action id="QuickJavaDoc">
     <mouse-shortcut keystroke="meta alt button1" />
     <keyboard-shortcut first-keystroke="meta alt space" />
@@ -214,6 +219,15 @@
     <keyboard-shortcut first-keystroke="shift ctrl meta alt left" />
   </action>
   <action id="Vcs.MoveChangedLinesToChangelist" />
+  <action id="Vcs.ShowHistoryForBlock">
+    <keyboard-shortcut first-keystroke="shift meta alt h" />
+  </action>
+  <action id="Vcs.ShowHistoryForRevision">
+    <keyboard-shortcut first-keystroke="meta h" />
+  </action>
+  <action id="Vcs.ShowTabbedFileHistory">
+    <keyboard-shortcut first-keystroke="meta alt h" />
+  </action>
   <action id="osmedile.intellij.stringmanip.EscapeHtmlAction">
     <keyboard-shortcut first-keystroke="shift meta h" />
   </action>

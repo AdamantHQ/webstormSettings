@@ -89,6 +89,14 @@
           <Count>3</Count>
         </Item>
       </Statistic>
+      <Statistic Action="History Up to Here">
+        <Item>
+          <IdeaActionID>Vcs.ShowHistoryForRevision</IdeaActionID>
+          <ShortCut>'⌘H'</ShortCut>
+          <Description>History Up to Here</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Implementation(s)">
         <Item>
           <IdeaActionID>GotoImplementation</IdeaActionID>
@@ -126,6 +134,14 @@
           <IdeaActionID>ReformatWithPrettierAction</IdeaActionID>
           <ShortCut>'⌘S'</ShortCut>
           <Description>Reformat with Prettier</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Refresh">
+        <Item>
+          <IdeaActionID>Vcs.Log.Refresh</IdeaActionID>
+          <ShortCut>'⌘R'</ShortCut>
+          <Description>Refresh</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
