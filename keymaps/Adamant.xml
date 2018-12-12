@@ -23,6 +23,9 @@
   <action id="ChooseDebugConfiguration">
     <keyboard-shortcut first-keystroke="shift alt d" />
   </action>
+  <action id="ChooseRunConfiguration">
+    <keyboard-shortcut first-keystroke="ctrl r" />
+  </action>
   <action id="CloseProject">
     <keyboard-shortcut first-keystroke="shift meta w" />
   </action>
@@ -122,10 +125,10 @@
   <action id="InsertLiveTemplate" />
   <action id="IntroduceVariable" />
   <action id="LocalHistory.ShowHistory">
-    <keyboard-shortcut first-keystroke="meta h" />
+    <keyboard-shortcut first-keystroke="meta alt h" />
   </action>
   <action id="LocalHistory.ShowSelectionHistory">
-    <keyboard-shortcut first-keystroke="shift meta h" />
+    <keyboard-shortcut first-keystroke="shift meta alt h" />
   </action>
   <action id="MarkdownNavigator.InsertLink" />
   <action id="MarkdownNavigator.ToggleItalic" />
@@ -166,6 +169,7 @@
     <keyboard-shortcut first-keystroke="meta alt r" />
     <keyboard-shortcut first-keystroke="meta back_slash" />
   </action>
+  <action id="Run" />
   <action id="RunToCursor">
     <keyboard-shortcut first-keystroke="alt f9" />
     <keyboard-shortcut first-keystroke="shift alt 9" />
@@ -202,6 +206,9 @@
     <keyboard-shortcut first-keystroke="f8" />
     <keyboard-shortcut first-keystroke="meta quote" />
   </action>
+  <action id="Stop">
+    <keyboard-shortcut first-keystroke="meta s" />
+  </action>
   <action id="SurroundWithEmmet">
     <keyboard-shortcut first-keystroke="shift ctrl e" />
   </action>
@@ -223,13 +230,13 @@
   </action>
   <action id="Vcs.MoveChangedLinesToChangelist" />
   <action id="Vcs.ShowHistoryForBlock">
-    <keyboard-shortcut first-keystroke="shift meta alt h" />
+    <keyboard-shortcut first-keystroke="shift meta h" />
   </action>
   <action id="Vcs.ShowHistoryForRevision">
     <keyboard-shortcut first-keystroke="meta h" />
   </action>
   <action id="Vcs.ShowTabbedFileHistory">
-    <keyboard-shortcut first-keystroke="meta alt h" />
+    <keyboard-shortcut first-keystroke="meta h" />
   </action>
   <action id="osmedile.intellij.stringmanip.EscapeHtmlAction">
     <keyboard-shortcut first-keystroke="shift meta h" />
