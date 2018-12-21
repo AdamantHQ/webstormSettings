@@ -5,21 +5,9 @@
     <ignoreAction name="Language Injection/Edit Injection Settings" />
     <ignoreAction name="Language Injection/Inject language or reference" />
     <ignoreAction name="Language Injection/Un-inject Language/Reference" />
-    <ignoreAction name="RegExp/Check RegExp" />
-    <ignoreAction name="TypeScript/Convert type alias to interface" />
-    <ignoreAction name="TypeScript/Generate reference path comment" />
-    <ignoreAction name="TypeScript/Make 'private'" />
-    <ignoreAction name="TypeScript/Make 'protected'" />
-    <ignoreAction name="TypeScript/Make 'public'" />
     <ignoreAction name="CSS/Create Selector" />
     <ignoreAction name="CSS/Extract inline CSS" />
     <ignoreAction name="CSS/Replace quotes" />
-    <ignoreAction name="TypeScript/Convert field to parameter property" />
-    <ignoreAction name="TypeScript/Convert parameter property to class field" />
-    <ignoreAction name="TypeScript/Convert type alias to enum" />
-    <ignoreAction name="TypeScript/Implement in derived classes" />
-    <ignoreAction name="JavaScript/Introduce local variable" />
     <ignoreAction name="XML/Remove attribute" />
-    <ignoreAction name="JavaScript/ECMAScript 6/Convert arrow function to anonymous function" />
   </component>
 </application>
