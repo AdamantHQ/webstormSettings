@@ -1,5 +1,5 @@
 <templateSet group="project">
-  <template name="types" value="import types from &quot;api/schema/types&quot;" description="import types" toReformat="false" toShortenFQNames="true">
+  <template name="types" value="import types from 'api/schema/types'" description="import types" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>

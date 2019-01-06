@@ -44,18 +44,13 @@
   <template name="flow" value="// @flow" description="Inserts @flow annotation" toReformat="true" toShortenFQNames="true" deactivated="true">
     <context />
   </template>
-  <template name="clr" value="console.log(&quot;---$COMPONENT$ $END$---&quot;);" description="Console.log for displaying rendering information" toReformat="false" toShortenFQNames="true">
+  <template name="clr" value="console.log('---$COMPONENT$ $END$---');" description="Console.log for displaying rendering information" toReformat="false" toShortenFQNames="true">
     <variable name="COMPONENT" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
   <template name="cl" value="console.log($END$)" description="Console.log()" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="cls" value="console.log('$END$')" description="Console.log()" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -76,5 +71,40 @@
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
+  </template>
+  <template name="fori" value="for($VARKIND$ $INDEX$ = 0; $INDEX$ &lt; $LIMIT$; $INDEX$++) {&#10;  $END$&#10;}" description="Create iteration loop" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="VARKIND" expression="jsSuggestDefaultVariableKind(false)" defaultValue="var" alwaysStopAt="false" />
+    <variable name="INDEX" expression="jsSuggestIndexName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="LIMIT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="iter" value="for ($VARKIND$ $VAR$ of $ARRAY$) {&#10;  $END$&#10;}" description="Iterate (for..of) - ES2015" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="VARKIND" expression="jsSuggestDefaultVariableKind()" defaultValue="var" alwaysStopAt="false" />
+    <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;array &quot;" alwaysStopAt="false" />
+    <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="importitems" value="import {$ITEM$$END$} from &quot;$MODULE$&quot;;&#10;" description="Import statement - import {b} from 'a'" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="MODULE" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="ITEM" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="importns" value="import * as $ITEM$ from &quot;$MODULE$&quot;;&#10;$END$" description="Import statement - import * as b from 'a'" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="MODULE" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="ITEM" expression="jsSuggestImportedEntityName()" defaultValue="Namespace" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="importdefault" value="import $ITEM$ from &quot;$MODULE$&quot;;&#10;$END$" description="Import statement - import b from 'a'" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="MODULE" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="ITEM" expression="jsSuggestImportedEntityName()" defaultValue="Namespace" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="exportall" value="export * from &quot;$MODULE$&quot;;&#10;$END$" description="Export statement - export * from 'a'" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="MODULE" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="exportitems" value="export {$ITEM$$END$};&#10;" description="Export statement - export {b}" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="ITEM" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context />
   </template>
 </templateSet>
