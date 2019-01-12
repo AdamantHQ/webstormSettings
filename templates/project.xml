@@ -1,5 +1,5 @@
 <templateSet group="project">
-  <template name="types" value="import types from 'api/schema/types'" description="import types" toReformat="false" toShortenFQNames="true">
+  <template name="types" value="import types from 'common/schema/types'" description="import types" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -31,7 +31,7 @@
       <option name="JSON" value="true" />
     </context>
   </template>
-  <template name="sails" value="import sails from 'api/schema/sails'" description="Import sails" toReformat="false" toShortenFQNames="true">
+  <template name="sails" value="import sails from 'common/schema/sails'" description="Import sails" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
