@@ -11,7 +11,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="cdu" value="componentDidUpdate(prevProps, prevState, prevContext) {&#10;  $END$&#10;}&#10;" description="React: componentDidUpdate" toReformat="true" toShortenFQNames="true">
+  <template name="cdu" value="componentDidUpdate(prevProps) {&#10;  $END$&#10;}&#10;" description="React: componentDidUpdate" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
