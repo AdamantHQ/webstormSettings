@@ -44,7 +44,7 @@
   <template name="flow" value="// @flow" description="Inserts @flow annotation" toReformat="true" toShortenFQNames="true" deactivated="true">
     <context />
   </template>
-  <template name="clr" value="console.log('---$COMPONENT$ $END$---');" description="Console.log for displaying rendering information" toReformat="false" toShortenFQNames="true">
+  <template name="clr" value="console.log('%c---$COMPONENT$ $END$---', 'color:red; background: black')" description="Console.log for displaying rendering information" toReformat="false" toShortenFQNames="true">
     <variable name="COMPONENT" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
