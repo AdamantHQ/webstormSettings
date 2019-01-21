@@ -297,6 +297,22 @@
           <Count>8</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Rerun 'TableHeader'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'⌘R'</ShortCut>
+          <Description>Rerun 'TableHeader'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'TableHeader.test.js'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'⌘R'</ShortCut>
+          <Description>Rerun 'TableHeader.test.js'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Rerun 'TablePaginationActions.render.should render disabled IconButtons for FirstPage &amp; KeyboardArrowLeft icons'">
         <Item>
           <IdeaActionID>Rerun</IdeaActionID>
@@ -543,6 +559,14 @@
           <ShortCut>'⌘F2'</ShortCut>
           <Description>Stop 'Calculation'</Description>
           <Count>5</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'TableHeader.test.js'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'⌘S'</ShortCut>
+          <Description>Stop 'TableHeader.test.js'</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'Worker regular'">
