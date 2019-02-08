@@ -29,6 +29,9 @@
   <action id="CloseProject">
     <keyboard-shortcut first-keystroke="shift meta w" />
   </action>
+  <action id="EditorBackwardParagraph">
+    <keyboard-shortcut first-keystroke="shift meta alt 8" />
+  </action>
   <action id="EditorCloneCaretAbove">
     <keyboard-shortcut first-keystroke="shift ctrl meta alt up" />
   </action>
@@ -59,6 +62,9 @@
   <action id="EditorDownWithSelection">
     <keyboard-shortcut first-keystroke="shift down" />
     <keyboard-shortcut first-keystroke="shift ctrl k" />
+  </action>
+  <action id="EditorForwardParagraph">
+    <keyboard-shortcut first-keystroke="shift meta alt comma" />
   </action>
   <action id="EditorJoinLines" />
   <action id="EditorLeft">
