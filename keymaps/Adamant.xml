@@ -11,7 +11,9 @@
     <keyboard-shortcut first-keystroke="ctrl alt semicolon" />
     <keyboard-shortcut first-keystroke="shift meta j" />
   </action>
-  <action id="ActivateFindToolWindow" />
+  <action id="ActivateFindToolWindow">
+    <keyboard-shortcut first-keystroke="meta alt 0" />
+  </action>
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="meta alt i" />
   </action>
