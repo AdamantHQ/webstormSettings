@@ -158,6 +158,10 @@
   <action id="ImplementMethods" />
   <action id="InsertLiveTemplate" />
   <action id="IntroduceVariable" />
+  <action id="JumpToLastWindow">
+    <keyboard-shortcut first-keystroke="f12" />
+    <keyboard-shortcut first-keystroke="alt tab" />
+  </action>
   <action id="LocalHistory.ShowHistory">
     <keyboard-shortcut first-keystroke="meta alt h" />
   </action>
@@ -181,6 +185,7 @@
     <keyboard-shortcut first-keystroke="shift meta n" />
   </action>
   <action id="NewScratchFile" />
+  <action id="NextSplitter" />
   <action id="OpenFile">
     <keyboard-shortcut first-keystroke="shift meta alt o" />
   </action>
