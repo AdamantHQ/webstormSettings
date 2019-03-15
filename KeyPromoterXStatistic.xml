@@ -510,7 +510,7 @@
           <IdeaActionID>ChooseRunConfiguration</IdeaActionID>
           <ShortCut>'⌃⌥R'</ShortCut>
           <Description>Run...</Description>
-          <Count>7</Count>
+          <Count>8</Count>
         </Item>
       </Statistic>
       <Statistic Action="Save All">
@@ -735,6 +735,14 @@
           <ShortCut>'⌃⌘='</ShortCut>
           <Description>Zoom</Description>
           <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Zoom In">
+        <Item>
+          <IdeaActionID>Images.Editor.ZoomIn</IdeaActionID>
+          <ShortCut>'⌘+' or '⌘='</ShortCut>
+          <Description>Zoom In</Description>
+          <Count>2</Count>
         </Item>
       </Statistic>
     </option>
