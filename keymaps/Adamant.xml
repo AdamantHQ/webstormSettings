@@ -250,6 +250,9 @@
     <keyboard-shortcut first-keystroke="ctrl g" />
     <keyboard-shortcut first-keystroke="shift ctrl meta alt right" />
   </action>
+  <action id="ShowBookmarks">
+    <keyboard-shortcut first-keystroke="meta 3" />
+  </action>
   <action id="ShowExecutionPoint">
     <keyboard-shortcut first-keystroke="alt f10" />
     <keyboard-shortcut first-keystroke="shift meta quote" />
@@ -285,8 +288,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl e" />
   </action>
   <action id="ToggleBookmark">
-    <keyboard-shortcut first-keystroke="meta 3" />
+    <keyboard-shortcut first-keystroke="meta alt 3" />
   </action>
+  <action id="ToggleBookmarkWithMnemonic" />
   <action id="ToggleDistractionFreeMode">
     <keyboard-shortcut first-keystroke="shift ctrl meta alt equals" />
   </action>
