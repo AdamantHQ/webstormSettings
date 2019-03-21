@@ -408,7 +408,7 @@
       <option name="JSX_HTML" value="true" />
     </context>
   </template>
-  <template name="dt" value="data-testid=&quot;$END$&quot;" toReformat="false" toShortenFQNames="true">
+  <template name="dt" value="data-testid=&quot;$END$&quot;" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
