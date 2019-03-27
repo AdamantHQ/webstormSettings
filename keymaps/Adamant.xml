@@ -199,6 +199,9 @@
     <keyboard-shortcut first-keystroke="meta alt v" />
   </action>
   <action id="PopupHector" />
+  <action id="QuickChangeScheme">
+    <keyboard-shortcut first-keystroke="ctrl close_bracket" />
+  </action>
   <action id="QuickJavaDoc">
     <mouse-shortcut keystroke="meta alt button1" />
     <keyboard-shortcut first-keystroke="meta alt space" />
