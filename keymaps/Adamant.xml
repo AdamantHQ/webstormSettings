@@ -50,6 +50,12 @@
   </action>
   <action id="EditorCutLineBackward">
     <keyboard-shortcut first-keystroke="shift ctrl k" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt x" />
+  </action>
+  <action id="EditorCutLineEnd">
+    <keyboard-shortcut first-keystroke="ctrl k" />
+    <keyboard-shortcut first-keystroke="ctrl alt z" />
+    <keyboard-shortcut first-keystroke="ctrl alt x" />
   </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="meta alt back_space" />
