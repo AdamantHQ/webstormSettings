@@ -323,6 +323,9 @@
   <action id="Vcs.ShowHistoryForRevision">
     <keyboard-shortcut first-keystroke="meta h" />
   </action>
+  <action id="Vcs.ShowMessageHistory">
+    <keyboard-shortcut first-keystroke="ctrl m" />
+  </action>
   <action id="Vcs.ShowTabbedFileHistory">
     <keyboard-shortcut first-keystroke="meta h" />
   </action>
