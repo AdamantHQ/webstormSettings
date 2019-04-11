@@ -1,7 +1,8 @@
 <templateSet group="ReactJS">
-  <template name="rcls" value="import React, { Component } from 'react'&#10;import T from 'prop-types'&#10;import './$CLASSNAME$.scss'&#10;&#10;export default class $COMPONENT$ extends Component {&#10;  static propTypes = {&#10;    &#10;  }&#10;  &#10;  render() {&#10;    return (&#10;      &lt;div className=&quot;$CLASSNAME$&quot;&gt;$END$&lt;/div&gt;&#10;    )&#10;  }&#10;}&#10;" description="React: Create a React ES2015 class" toReformat="true" toShortenFQNames="true">
+  <template name="rc" value="import React from 'react'&#10;import T from 'prop-types'&#10;import './$CLASSNAME$.scss'&#10;import helper from 'utils/bem-helper'&#10;&#10;const classes = helper('$CLASSNAME$')&#10;&#10;export default function $COMPONENT$(props) {&#10;  return (&#10;    &lt;div {...classes('')}&gt;&#10;      $START$&#10;    &lt;/div&gt;&#10;  )&#10;}&#10;&#10;$COMPONENT$.propTypes = {&#10;  $END$&#10;}" description="React: Create a React ES2015 class" toReformat="true" toShortenFQNames="true">
     <variable name="COMPONENT" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
     <variable name="CLASSNAME" expression="lowercaseAndDash(COMPONENT)" defaultValue="" alwaysStopAt="true" />
+    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -187,7 +188,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="imc" value="import $EXPORT$ from './$CHILD$'" description="React: import children" toReformat="false" toShortenFQNames="true">
+  <template name="imc" value="import $EXPORT$ from './$CHILD$/$CHILD$'" description="React: import children" toReformat="false" toShortenFQNames="true">
     <variable name="CHILD" expression="jsClassName()" defaultValue="" alwaysStopAt="true" />
     <variable name="EXPORT" expression="" defaultValue="CHILD" alwaysStopAt="false" />
     <context>
@@ -233,12 +234,6 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="pta" value="$START$: PropTypes.array.isRequired,$END$" description="React: PropTypes.array" toReformat="true" toShortenFQNames="true">
-    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
   <template name="csb" value="$CLASS$__" description="ClassName string with element underscores" toReformat="false" toShortenFQNames="true">
     <variable name="CLASS" expression="lowercaseAndDash(fileNameWithoutExtension())" defaultValue="" alwaysStopAt="false" />
     <context>
@@ -258,13 +253,6 @@
     </context>
   </template>
   <template name="cndp" value="const { $END$ } = this.props" description="Destructured assignment from this.props" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="ptu" value="$START$: PropTypes.$TYPE$,$END$" description="React: PropTypes. without required" toReformat="true" toShortenFQNames="true">
-    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -322,13 +310,6 @@
   </template>
   <template name="wcn" value="/* webpackChunkName: '$NAME$' */ $END$" description="Webpack chunk name magic comment" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="rclsc" value="import React, { Component } from 'react'&#10;import T from 'prop-types'&#10;import './$CLASSNAME$.scss'&#10;import helper from 'utils/bem-helper'&#10;&#10;const classes = helper('$CLASSNAME$')&#10;&#10;export default class $COMPONENT$ extends Component {&#10;  static propTypes = {&#10;    &#10;  }&#10;  &#10;  render() {&#10;    return (&#10;      &lt;div {...classes()}&gt;$END$&lt;/div&gt;&#10;    )&#10;  }&#10;}&#10;" description="React: Create a React ES2015 class" toReformat="true" toShortenFQNames="true">
-    <variable name="COMPONENT" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
-    <variable name="CLASSNAME" expression="lowercaseAndDash(COMPONENT)" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -409,6 +390,11 @@
     </context>
   </template>
   <template name="dt" value="data-testid=&quot;$END$&quot;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="impt" value="import T from 'prop-types'" description="React: import prop-types" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
