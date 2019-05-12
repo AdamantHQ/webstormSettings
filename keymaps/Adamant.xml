@@ -18,6 +18,7 @@
   </action>
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="meta alt i" />
+    <keyboard-shortcut first-keystroke="meta i" />
   </action>
   <action id="AddToFavoritesPopup" />
   <action id="Annotate">
