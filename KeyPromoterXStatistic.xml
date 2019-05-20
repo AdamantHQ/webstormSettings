@@ -174,7 +174,7 @@
           <IdeaActionID>Vcs.ShowHistoryForRevision</IdeaActionID>
           <ShortCut>'⌘H'</ShortCut>
           <Description>History Up to Here</Description>
-          <Count>1</Count>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Implementation(s)">
