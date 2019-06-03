@@ -242,8 +242,9 @@
     <keyboard-shortcut first-keystroke="alt f9" />
     <keyboard-shortcut first-keystroke="shift alt 9" />
   </action>
+  <action id="SavaAs" />
   <action id="SaveAll">
-    <keyboard-shortcut first-keystroke="shift ctrl s" />
+    <keyboard-shortcut first-keystroke="shift meta s" />
   </action>
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="shift ctrl meta alt space" />
