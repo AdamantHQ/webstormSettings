@@ -36,7 +36,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="ul" value="useLogger($START$, '$COMP$')" toReformat="false" toShortenFQNames="true">
+  <template name="ul" value="useLogger($START$, '$COMP$')" description="" toReformat="false" toShortenFQNames="true">
     <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="COMP" expression="lowercaseAndDash(fileNameWithoutExtension())" defaultValue="" alwaysStopAt="true" />
     <context>
