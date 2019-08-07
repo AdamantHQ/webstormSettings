@@ -1,5 +1,5 @@
 <templateSet group="JavaScript Testing">
-  <template name="bfe" value="beforeEach(function() {&#10;  $END$&#10;})" description="Inserts beforeEach() block" toReformat="true" toShortenFQNames="true">
+  <template name="bfe" value="beforeEach(() =&gt; {&#10;  $END$&#10;})" description="Inserts beforeEach() block" toReformat="true" toShortenFQNames="true">
     <context />
   </template>
   <template name="it" value="it(&quot;should $NAME$&quot;, () =&gt; {&#10;  $END$&#10;})" description="Inserts it() block" toReformat="true" toShortenFQNames="true">
