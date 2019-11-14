@@ -3,7 +3,7 @@
     <property name="created">2018-04-24T20:13:59</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2018.1.1.0.0</property>
-    <property name="modified">2018-06-17T23:26:15</property>
+    <property name="modified">2019-11-14T09:46:13</property>
     <property name="originalScheme">Darcula</property>
   </metaInfo>
   <colors>
@@ -21,6 +21,7 @@
     <option name="FILESTATUS_UNKNOWN" value="f77669" />
     <option name="FILESTATUS_addedOutside" value="c3e88d" />
     <option name="FILESTATUS_modifiedOutside" value="82aaff" />
+    <option name="WHITESPACES" value="363636" />
   </colors>
   <attributes>
     <option name="MARKDOWN_NAVIGATOR.BOLD_TEXT_ABBREVIATED_TEXT">
