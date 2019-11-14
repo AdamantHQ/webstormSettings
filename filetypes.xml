@@ -3,25 +3,25 @@
     <extensionMap>
       <mapping pattern="mockUsersApi.js" type="ECMAScript 6" />
       <mapping pattern=".prettierrrc" type="JSON" />
-      <mapping pattern="categories" type="JavaScript" />
-      <mapping pattern="ArchiveScorms" type="JavaScript" />
-      <mapping pattern=".babelIrc" type="JavaScript" />
       <mapping pattern="PatchedNavLink.js" type="JavaScript" />
+      <mapping pattern="categories" type="JavaScript" />
+      <mapping pattern=".babelIrc" type="JavaScript" />
+      <mapping pattern="ArchiveScorms" type="JavaScript" />
       <mapping pattern="mongod" type="Native" />
       <mapping ext="mp4" type="Native" />
-      <mapping pattern=".foreverignore" type="PLAIN_TEXT" />
       <mapping pattern="UserFollows" type="PLAIN_TEXT" />
-      <mapping pattern=".gitlab-ci.yml" type="PLAIN_TEXT" />
-      <mapping pattern="userStorage" type="PLAIN_TEXT" />
-      <mapping pattern="mongo" type="PLAIN_TEXT" />
       <mapping pattern="SearchInput" type="PLAIN_TEXT" />
-      <mapping pattern=".env.sample" type="PLAIN_TEXT" />
       <mapping pattern=".env.production" type="PLAIN_TEXT" />
       <mapping pattern=".foreveringnore" type="PLAIN_TEXT" />
+      <mapping pattern="mongo" type="PLAIN_TEXT" />
+      <mapping pattern=".foreverignore" type="PLAIN_TEXT" />
+      <mapping pattern=".env.sample" type="PLAIN_TEXT" />
+      <mapping pattern="userStorage" type="PLAIN_TEXT" />
+      <mapping pattern=".gitlab-ci.yml" type="PLAIN_TEXT" />
+      <mapping ext="woff" type="PLAIN_TEXT" />
+      <mapping ext="example" type="PLAIN_TEXT" />
       <mapping ext="woff2" type="PLAIN_TEXT" />
       <mapping ext="1" type="PLAIN_TEXT" />
-      <mapping ext="example" type="PLAIN_TEXT" />
-      <mapping ext="woff" type="PLAIN_TEXT" />
       <mapping ext="scsscsscss" type="PLAIN_TEXT" />
       <mapping pattern=".tsconfig" type="TSLint" />
     </extensionMap>
