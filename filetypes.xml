@@ -18,10 +18,10 @@
       <mapping pattern=".env.sample" type="PLAIN_TEXT" />
       <mapping pattern="userStorage" type="PLAIN_TEXT" />
       <mapping pattern=".gitlab-ci.yml" type="PLAIN_TEXT" />
+      <mapping ext="1" type="PLAIN_TEXT" />
       <mapping ext="woff" type="PLAIN_TEXT" />
       <mapping ext="example" type="PLAIN_TEXT" />
       <mapping ext="woff2" type="PLAIN_TEXT" />
-      <mapping ext="1" type="PLAIN_TEXT" />
       <mapping ext="scsscsscss" type="PLAIN_TEXT" />
       <mapping pattern=".tsconfig" type="TSLint" />
     </extensionMap>
