@@ -207,7 +207,6 @@
     <keyboard-shortcut first-keystroke="shift meta n" />
   </action>
   <action id="NewScratchFile" />
-  <action id="NextSplitter" />
   <action id="OpenFile">
     <keyboard-shortcut first-keystroke="shift meta alt o" />
   </action>
