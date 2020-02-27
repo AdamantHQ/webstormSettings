@@ -13,7 +13,7 @@
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.ts" />
+    <option name="FILE_MASK" value="!yarn*, !schema*, !*.spec.*" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -29,7 +29,7 @@
     <mask>!*.scss</mask>
     <mask>!yarn*</mask>
     <mask>!yarn*, !schema*</mask>
-    <mask>!yarn*, !schema*, !*.spec.*</mask>
     <mask>*.ts</mask>
+    <mask>!yarn*, !schema*, !*.spec.*</mask>
   </component>
 </application>
