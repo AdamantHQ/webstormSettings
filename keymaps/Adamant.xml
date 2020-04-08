@@ -271,7 +271,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl meta alt p" />
   </action>
   <action id="ReformatWithPrettierAction">
-    <keyboard-shortcut first-keystroke="meta s" />
+    <keyboard-shortcut first-keystroke="shift meta s" />
   </action>
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="shift f6" />
@@ -298,9 +298,7 @@
     <keyboard-shortcut first-keystroke="shift alt 9" />
   </action>
   <action id="SavaAs" />
-  <action id="SaveAll">
-    <keyboard-shortcut first-keystroke="shift meta s" />
-  </action>
+  <action id="SaveAs" />
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="shift ctrl meta alt space" />
   </action>
