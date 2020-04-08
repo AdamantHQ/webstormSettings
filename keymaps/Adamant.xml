@@ -13,12 +13,21 @@
     <keyboard-shortcut first-keystroke="ctrl alt semicolon" />
     <keyboard-shortcut first-keystroke="shift meta l" />
   </action>
+  <action id="ActivateCommitToolWindow">
+    <keyboard-shortcut first-keystroke="meta k" />
+  </action>
   <action id="ActivateFindToolWindow">
     <keyboard-shortcut first-keystroke="meta alt 0" />
+  </action>
+  <action id="ActivateStructureToolWindow">
+    <keyboard-shortcut first-keystroke="meta 3" />
   </action>
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="meta alt i" />
     <keyboard-shortcut first-keystroke="meta i" />
+  </action>
+  <action id="ActivatenpmToolWindow">
+    <keyboard-shortcut first-keystroke="meta 7" />
   </action>
   <action id="AddToFavoritesPopup" />
   <action id="Annotate">
@@ -30,7 +39,6 @@
     <keyboard-shortcut first-keystroke="shift ctrl u" />
   </action>
   <action id="CheckinProject">
-    <keyboard-shortcut first-keystroke="meta k" />
     <keyboard-shortcut first-keystroke="shift meta k" />
   </action>
   <action id="ChooseDebugConfiguration">
@@ -47,15 +55,18 @@
     <keyboard-shortcut first-keystroke="shift meta w" />
   </action>
   <action id="CommentByBlockComment">
-    <keyboard-shortcut first-keystroke="meta alt slash" />
-    <keyboard-shortcut first-keystroke="meta alt divide" />
-    <keyboard-shortcut first-keystroke="shift ctrl slash" />
     <keyboard-shortcut first-keystroke="shift meta slash" />
-    <keyboard-shortcut first-keystroke="shift meta divide" />
-    <keyboard-shortcut first-keystroke="shift meta divide" />
   </action>
   <action id="Debug">
     <keyboard-shortcut first-keystroke="shift alt d" />
+  </action>
+  <action id="Diff.ApplyLeftSide" />
+  <action id="Diff.ApplyRightSide" />
+  <action id="Diff.NextChange">
+    <keyboard-shortcut first-keystroke="shift meta close_bracket" />
+  </action>
+  <action id="Diff.PrevChange">
+    <keyboard-shortcut first-keystroke="shift meta open_bracket" />
   </action>
   <action id="Diff.ShowSettingsPopup" />
   <action id="EditorBackwardParagraph">
@@ -116,6 +127,8 @@
     <keyboard-shortcut first-keystroke="ctrl e" />
     <keyboard-shortcut first-keystroke="meta semicolon" />
   </action>
+  <action id="EditorLookupDown" />
+  <action id="EditorLookupUp" />
   <action id="EditorRight">
     <keyboard-shortcut first-keystroke="right" />
     <keyboard-shortcut first-keystroke="ctrl l" />
@@ -175,6 +188,9 @@
   <action id="Git.ResolveConflicts">
     <keyboard-shortcut first-keystroke="shift ctrl v" />
   </action>
+  <action id="GotoBookmark1" />
+  <action id="GotoBookmark2" />
+  <action id="GotoBookmark3" />
   <action id="GotoImplementation">
     <keyboard-shortcut first-keystroke="meta alt b" />
   </action>
@@ -204,7 +220,9 @@
   <action id="MarkdownNavigator.InsertLink" />
   <action id="MarkdownNavigator.ToggleItalic" />
   <action id="MaximizeToolWindow" />
+  <action id="MethodDown" />
   <action id="MethodHierarchy" />
+  <action id="MethodUp" />
   <action id="MoveEditorToOppositeTabGroup">
     <keyboard-shortcut first-keystroke="alt w" />
   </action>
@@ -221,8 +239,12 @@
     <keyboard-shortcut first-keystroke="shift meta n" />
   </action>
   <action id="NewScratchFile" />
+  <action id="NextEditorTab" />
   <action id="NextSplitter">
     <keyboard-shortcut first-keystroke="alt q" />
+  </action>
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="shift meta close_bracket" />
   </action>
   <action id="OpenFile">
     <keyboard-shortcut first-keystroke="shift meta alt o" />
@@ -233,6 +255,10 @@
   <action id="PopupHector" />
   <action id="PrevSplitter">
     <keyboard-shortcut first-keystroke="shift alt q" />
+  </action>
+  <action id="PreviousEditorTab" />
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="shift meta open_bracket" />
   </action>
   <action id="QuickChangeScheme">
     <keyboard-shortcut first-keystroke="ctrl close_bracket" />
@@ -254,6 +280,7 @@
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="ctrl z" />
   </action>
+  <action id="RestoreDefaultLayout" />
   <action id="Resume">
     <keyboard-shortcut first-keystroke="meta alt r" />
     <keyboard-shortcut first-keystroke="meta back_slash" />
@@ -289,9 +316,8 @@
     <keyboard-shortcut first-keystroke="ctrl g" />
     <keyboard-shortcut first-keystroke="shift ctrl meta alt right" />
   </action>
-  <action id="ShowBookmarks">
-    <keyboard-shortcut first-keystroke="meta 3" />
-  </action>
+  <action id="ShowBookmarks" />
+  <action id="ShowContent" />
   <action id="ShowExecutionPoint">
     <keyboard-shortcut first-keystroke="alt f10" />
     <keyboard-shortcut first-keystroke="shift meta quote" />
