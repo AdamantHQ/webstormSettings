@@ -1,0 +1,9 @@
+<templateSet group="TypeScript">
+  <template name="int" value="interface $COMP$Props {&#10;  $PROP$: $END$&#10;}" description="interface" toReformat="false" toShortenFQNames="true">
+    <variable name="COMP" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <variable name="PROP" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>
