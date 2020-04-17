@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="mockUsersApi.js" type="ECMAScript 6" />
+      <mapping pattern=".tsignore" type="IgnoreLang file" />
       <mapping pattern=".prettierrrc" type="JSON" />
       <mapping pattern="PatchedNavLink.js" type="JavaScript" />
       <mapping pattern="categories" type="JavaScript" />
