@@ -32,4 +32,10 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="fv" value="($S$) =&gt; void" description="Function with void return" toReformat="false" toShortenFQNames="true">
+    <variable name="S" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
