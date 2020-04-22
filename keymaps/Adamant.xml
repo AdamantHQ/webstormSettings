@@ -197,6 +197,14 @@
   <action id="GotoLine">
     <keyboard-shortcut first-keystroke="shift meta p" />
   </action>
+  <action id="GotoNextError">
+    <keyboard-shortcut first-keystroke="f2" />
+    <keyboard-shortcut first-keystroke="ctrl meta alt r" />
+  </action>
+  <action id="GotoPreviousError">
+    <keyboard-shortcut first-keystroke="shift f2" />
+    <keyboard-shortcut first-keystroke="ctrl meta alt w" />
+  </action>
   <action id="HideActiveWindow">
     <keyboard-shortcut first-keystroke="shift ctrl meta alt tab" />
   </action>
@@ -267,6 +275,9 @@
     <mouse-shortcut keystroke="meta alt button1" />
     <keyboard-shortcut first-keystroke="meta alt space" />
   </action>
+  <action id="QuickTypeDefinition">
+    <keyboard-shortcut first-keystroke="shift alt y" />
+  </action>
   <action id="RecentProjectListGroup">
     <keyboard-shortcut first-keystroke="shift ctrl meta alt p" />
   </action>
@@ -316,6 +327,10 @@
   </action>
   <action id="ShowBookmarks" />
   <action id="ShowContent" />
+  <action id="ShowErrorDescription">
+    <keyboard-shortcut first-keystroke="meta f1" />
+    <keyboard-shortcut first-keystroke="ctrl meta alt e" />
+  </action>
   <action id="ShowExecutionPoint">
     <keyboard-shortcut first-keystroke="alt f10" />
     <keyboard-shortcut first-keystroke="shift meta quote" />
