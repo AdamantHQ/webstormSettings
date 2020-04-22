@@ -1,6 +1,5 @@
 <templateSet group="TypeScript">
-  <template name="int" value="interface $COMP$Props {&#10;  $PROP$: $END$&#10;}" description="interface" toReformat="false" toShortenFQNames="true">
-    <variable name="COMP" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+  <template name="int" value="interface Props {&#10;  $PROP$: $END$&#10;}" description="interface" toReformat="false" toShortenFQNames="true">
     <variable name="PROP" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="TypeScript" value="true" />
@@ -11,16 +10,14 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="intc" value="interface $COMP$Props extends ComponentProps$IMPORT_POINT$ {&#10;  $PROP$: $END$&#10;}" description="interface extending the component props" toReformat="false" toShortenFQNames="true">
-    <variable name="COMP" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+  <template name="intc" value="interface Props extends ComponentProps$IMPORT_POINT$ {&#10;  $PROP$: $END$&#10;}" description="interface extending the component props" toReformat="false" toShortenFQNames="true">
     <variable name="IMPORT_POINT" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PROP" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="intp" value="interface $COMP$Props extends ParentComponentProps$I$ {&#10;  $PROP$: $END$&#10;}" description="interface extending the parent component props" toReformat="false" toShortenFQNames="true">
-    <variable name="COMP" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+  <template name="intp" value="interface Props extends ParentComponentProps$I$ {&#10;  $PROP$: $END$&#10;}" description="interface extending the parent component props" toReformat="false" toShortenFQNames="true">
     <variable name="I" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PROP" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
