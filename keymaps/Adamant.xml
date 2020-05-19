@@ -161,6 +161,7 @@
     <keyboard-shortcut first-keystroke="up" />
     <keyboard-shortcut first-keystroke="ctrl i" />
   </action>
+  <action id="Exit" />
   <action id="ExtractInterface">
     <keyboard-shortcut first-keystroke="shift meta i" />
   </action>
