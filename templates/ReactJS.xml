@@ -1,5 +1,5 @@
 <templateSet group="ReactJS">
-  <template name="rc" value="import React from 'react'&#10;import T from 'prop-types'&#10;import './$CLASSNAME$.scss'&#10;import { bem } from 'utils'&#10;&#10;const classes = bem('$CLASSNAME$')&#10;&#10;export default function $COMPONENT$(props) {&#10;  return (&#10;    &lt;div {...classes('')}&gt;&#10;      $START$&#10;    &lt;/div&gt;&#10;  )&#10;}&#10;&#10;$COMPONENT$.propTypes = {&#10;  $END$&#10;}" description="React: Create a React ES2015 class" toReformat="true" toShortenFQNames="true">
+  <template name="rc" value="import React from 'react'&#10;import T from 'prop-types'&#10;import './$CLASSNAME$.scss'&#10;import { bem } from 'utils'&#10;&#10;const classes = bem('$CLASSNAME$')&#10;&#10;export default function $COMPONENT$(props) {&#10;  return (&#10;    &lt;div {...classes('')}&gt;&#10;      $START$&#10;    &lt;/div&gt;&#10;  )&#10;}&#10;&#10;$COMPONENT$.propTypes = {&#10;  $END$&#10;}" description="React: Create a React Functional component" toReformat="true" toShortenFQNames="true">
     <variable name="COMPONENT" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
     <variable name="CLASSNAME" expression="lowercaseAndDash(COMPONENT)" defaultValue="" alwaysStopAt="true" />
     <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
@@ -402,6 +402,13 @@
   <template name="um" value="const $START$ = useMemo(() =&gt; {&#10;  return $BLOCK$&#10;}, [$END$]) " description="useMemo" toReformat="false" toShortenFQNames="true">
     <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="BLOCK" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="rf" value="import React from 'react'&#10;import styled from 'styled-components'&#10;&#10;export default function $COMPONENT$(props) {&#10;  return (&#10;    &lt;div&gt;&#10;      $START$&#10;    &lt;/div&gt;&#10;  )&#10;}" description="React: Create a React Functional component" toReformat="true" toShortenFQNames="true">
+    <variable name="COMPONENT" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <variable name="START" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
