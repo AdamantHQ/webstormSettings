@@ -16,6 +16,9 @@
   <action id="ActivateCommitToolWindow">
     <keyboard-shortcut first-keystroke="meta k" />
   </action>
+  <action id="ActivateEventLogToolWindow">
+    <keyboard-shortcut first-keystroke="shift ctrl e" />
+  </action>
   <action id="ActivateFindToolWindow">
     <keyboard-shortcut first-keystroke="meta alt 0" />
   </action>
@@ -375,9 +378,6 @@
   </action>
   <action id="Stop">
     <keyboard-shortcut first-keystroke="shift alt s" />
-  </action>
-  <action id="SurroundWithEmmet">
-    <keyboard-shortcut first-keystroke="shift ctrl e" />
   </action>
   <action id="ToggleBookmark">
     <keyboard-shortcut first-keystroke="meta alt 3" />
