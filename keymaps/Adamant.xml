@@ -249,7 +249,7 @@
   <action id="MethodUp" />
   <action id="MinimizeCurrentWindow" />
   <action id="MoveEditorToOppositeTabGroup">
-    <keyboard-shortcut first-keystroke="alt w" />
+    <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
   <action id="MoveStatementDown">
     <keyboard-shortcut first-keystroke="shift ctrl down" />
@@ -266,7 +266,7 @@
   <action id="NewScratchFile" />
   <action id="NextEditorTab" />
   <action id="NextSplitter">
-    <keyboard-shortcut first-keystroke="alt q" />
+    <keyboard-shortcut first-keystroke="ctrl q" />
   </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="shift meta close_bracket" />
@@ -278,9 +278,7 @@
     <keyboard-shortcut first-keystroke="meta alt v" />
   </action>
   <action id="PopupHector" />
-  <action id="PrevSplitter">
-    <keyboard-shortcut first-keystroke="shift alt q" />
-  </action>
+  <action id="PrevSplitter" />
   <action id="PreviousEditorTab" />
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="shift meta open_bracket" />
