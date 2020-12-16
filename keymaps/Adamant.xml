@@ -254,6 +254,10 @@
   <action id="MethodHierarchy" />
   <action id="MethodUp" />
   <action id="MinimizeCurrentWindow" />
+  <action id="Move">
+    <keyboard-shortcut first-keystroke="f6" />
+    <keyboard-shortcut first-keystroke="shift meta alt 6" />
+  </action>
   <action id="MoveEditorToOppositeTabGroup">
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
