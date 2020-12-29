@@ -24,7 +24,11 @@
       <mapping ext="example" type="PLAIN_TEXT" />
       <mapping ext="1" type="PLAIN_TEXT" />
       <mapping ext="woff" type="PLAIN_TEXT" />
+      <mapping pattern=".zshrc" type="Shell Script" />
+      <removed_mapping ext="bash" approved="true" type="Shell Script" />
+      <removed_mapping ext="sh" approved="true" type="Shell Script" />
       <removed_mapping ext="yaml" approved="true" type="SnakeYAML" />
+      <removed_mapping ext="zsh" approved="true" type="Shell Script" />
       <mapping pattern=".tsconfig" type="TSLint" />
     </extensionMap>
   </component>

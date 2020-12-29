@@ -56,6 +56,14 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.bats">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="pro.bashsupport" />
+              <option name="myPluginName" value="BashSupport Pro" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.bigtiff">
           <value>
             <plugin>
@@ -98,6 +106,14 @@
               <option name="myPluginId" value="com.intellij.css" />
               <option name="myPluginName" value="CSS" />
               <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.dash">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="pro.bashsupport" />
+              <option name="myPluginName" value="BashSupport Pro" />
             </plugin>
           </value>
         </entry>
@@ -572,6 +588,14 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.ksh">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="pro.bashsupport" />
+              <option name="myPluginName" value="BashSupport Pro" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.less">
           <value>
             <plugin>
@@ -614,6 +638,14 @@
               <option name="myPluginId" value="JavaScript" />
               <option name="myPluginName" value="JavaScript and TypeScript" />
               <option name="myBundled" value="true" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="*.mksh">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="pro.bashsupport" />
+              <option name="myPluginName" value="BashSupport Pro" />
             </plugin>
           </value>
         </entry>
@@ -1121,6 +1153,38 @@
             </plugin>
           </value>
         </entry>
+        <entry key=".bash_aliases">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="pro.bashsupport" />
+              <option name="myPluginName" value="BashSupport Pro" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key=".bash_logout">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="pro.bashsupport" />
+              <option name="myPluginName" value="BashSupport Pro" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key=".bash_profile">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="pro.bashsupport" />
+              <option name="myPluginName" value="BashSupport Pro" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key=".bashrc">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="pro.bashsupport" />
+              <option name="myPluginName" value="BashSupport Pro" />
+            </plugin>
+          </value>
+        </entry>
         <entry key=".editorconfig">
           <value>
             <plugin>
@@ -1227,6 +1291,14 @@
             </plugin>
           </value>
         </entry>
+        <entry key=".profile">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="pro.bashsupport" />
+              <option name="myPluginName" value="BashSupport Pro" />
+            </plugin>
+          </value>
+        </entry>
         <entry key=".stylelintignore">
           <value>
             <plugin>
@@ -1328,6 +1400,16 @@
             <FeaturePluginsList>
               <option name="featureMap">
                 <map>
+                  <entry key="BashConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Legacy BashSupport" pluginName="BashSupport Pro" pluginId="pro.bashsupport" />
+                    </value>
+                  </entry>
+                  <entry key="BashProRunConfiguration">
+                    <value>
+                      <FeaturePluginData displayName="BashSupport Pro" pluginName="BashSupport Pro" pluginId="pro.bashsupport" />
+                    </value>
+                  </entry>
                   <entry key="ChromiumRemoteDebugType">
                     <value>
                       <FeaturePluginData displayName="Attach to Node.js/Chrome" pluginName="JavaScript Debugger" pluginId="JavaScriptDebugger" />
@@ -1406,6 +1488,11 @@
                   <entry key="aws.lambda">
                     <value>
                       <FeaturePluginData displayName="AWS Lambda" pluginName="AWS Toolkit" pluginId="aws.toolkit" />
+                    </value>
+                  </entry>
+                  <entry key="bashpro.bats-core">
+                    <value>
+                      <FeaturePluginData displayName="bats-core" pluginName="BashSupport Pro" pluginId="pro.bashsupport" />
                     </value>
                   </entry>
                   <entry key="js.build_tools.grunt">
