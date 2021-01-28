@@ -28,6 +28,7 @@
       <removed_mapping ext="bash" approved="true" type="Shell Script" />
       <removed_mapping ext="sh" approved="true" type="Shell Script" />
       <removed_mapping ext="yaml" approved="true" type="SnakeYAML" />
+      <removed_mapping ext="yml" approved="true" type="SnakeYAML" />
       <removed_mapping ext="zsh" approved="true" type="Shell Script" />
       <mapping pattern=".tsconfig" type="TSLint" />
     </extensionMap>
