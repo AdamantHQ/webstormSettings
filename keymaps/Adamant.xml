@@ -341,10 +341,6 @@
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="shift ctrl meta alt space" />
   </action>
-  <action id="SelectAllOccurrences">
-    <keyboard-shortcut first-keystroke="ctrl meta g" />
-    <keyboard-shortcut first-keystroke="shift ctrl meta alt a" />
-  </action>
   <action id="SelectIn" />
   <action id="SelectInProjectView">
     <keyboard-shortcut first-keystroke="alt escape" />
