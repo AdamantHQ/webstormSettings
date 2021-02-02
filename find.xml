@@ -35,8 +35,8 @@
     <mask>!yarn*, !*.spec.*, !*.woff*,</mask>
     <mask>!yarn*, !schema*, !*.spec.*, !*.woff*, !*.test.*</mask>
     <mask>*.tsx</mask>
-    <mask>*.ts*</mask>
     <mask>*.tsx, !*.test.*</mask>
+    <mask>*.ts*</mask>
     <mask>*.ts, !*.test.*</mask>
   </component>
 </application>
