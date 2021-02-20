@@ -13,7 +13,7 @@
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.ts*, !*.test.*, !*spec.*" />
+    <option name="FILE_MASK" value="*.ts*, *.graphql, !*.test.*, !*spec.*" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -41,5 +41,6 @@
     <mask>*.ts?, !*.test.*</mask>
     <mask>*.ts*, !*.test.*</mask>
     <mask>*.ts*, !*.test.*, !*spec.*</mask>
+    <mask>*.ts*, *.graphql, !*.test.*, !*spec.*</mask>
   </component>
 </application>
