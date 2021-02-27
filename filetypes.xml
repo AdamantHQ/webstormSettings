@@ -5,6 +5,7 @@
       <mapping pattern="mockUsersApi.js" type="ECMAScript 6" />
       <mapping pattern=".tsignore" type="IgnoreLang file" />
       <mapping pattern=".prettierrrc" type="JSON" />
+      <removed_mapping ext="graphqlconfig" type="JSON" />
       <mapping pattern=".babelIrc" type="JavaScript" />
       <mapping pattern="ArchiveScorms" type="JavaScript" />
       <mapping pattern="categories" type="JavaScript" />
