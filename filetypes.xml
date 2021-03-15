@@ -5,6 +5,7 @@
       <mapping pattern="mockUsersApi.js" type="ECMAScript 6" />
       <mapping pattern=".tsignore" type="IgnoreLang file" />
       <mapping pattern=".prettierrrc" type="JSON" />
+      <mapping ext="graphqlconfig" type="JSON" />
       <mapping pattern=".babelIrc" type="JavaScript" />
       <mapping pattern="ArchiveScorms" type="JavaScript" />
       <mapping pattern="categories" type="JavaScript" />
@@ -26,7 +27,6 @@
       <mapping ext="woff" type="PLAIN_TEXT" />
       <mapping pattern=".zshrc" type="Shell Script" />
       <removed_mapping ext="bash" approved="true" type="Shell Script" />
-      <removed_mapping ext="graphqlconfig" type="JSON" />
       <removed_mapping ext="sh" approved="true" type="Shell Script" />
       <removed_mapping ext="yaml" approved="true" type="SnakeYAML" />
       <removed_mapping ext="yml" approved="true" type="SnakeYAML" />
